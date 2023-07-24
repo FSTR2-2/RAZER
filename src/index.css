@@ -1,43 +1,81 @@
 @font-face {
-  font-family: 'Razer F5';
-  src: url('./assets/fonts/RazerF5.woff')
-  format('woff');
+  font-family: "Razer F5";
+  src: url("./assets/fonts/RazerF5.woff") format("woff");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Razer F5';
-  src: url('./assets/fonts/RazerF5Bold.woff')
-  format('woff');
+  font-family: "Razer F5";
+  src: url("./assets/fonts/RazerF5Bold.woff") format("woff");
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'Razer F5';
-  src: url('./assets/fonts/RazerF5Light.woff')
-  format('woff');
+  font-family: "Razer F5";
+  src: url("./assets/fonts/RazerF5Light.woff") format("woff");
   font-weight: 300;
 }
 
 @font-face {
-  font-family: 'Razer F5';
-  src: url('./assets/fonts/RazerF5Thin.woff')
-  format('woff');
+  font-family: "Razer F5";
+  src: url("./assets/fonts/RazerF5Thin.woff") format("woff");
   font-weight: 200;
 }
 
 @font-face {
-  font-family: 'Razer F5';
-  src: url('./assets/fonts/RazerF5SemiBold.woff')
-  format('woff');
+  font-family: "Razer F5";
+  src: url("./assets/fonts/RazerF5SemiBold.woff") format("woff");
   font-weight: 500;
 }
 
 :root {
-  --bg-color: #a52222;
+  --color-background: #f4f4f4;
+  --color-text: #212738;
+  --color-inverse: #ffffff;
+  --color-transparent: transparent;
+  --color-primary: #44d62c;
+  --color-secondary: #fff;
+  --color-success: #44d62c;
+  --color-info: #28aadc;
+  --color-warning: #ffc107;
+  --color-danger: #c8323c;
+  --color-light: #eee;
+  --color-dark: #222;
+  --color-primary-accent: #ff8b8b;
+  --color-visual-focus: #6d9df7;
+  --color-background-focus: rgba(80, 176, 244, 0.1);
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-semi: 600;
+  --font-weight-bold: 700;
+  --direction: ltr;
+  --transition-duration: 0.5s;
+  --animation-duration: 1s;
+  --border-radius: 1em;
+  --buttons-border-radius: 0.25rem;
+  --border-style: solid;
+  --razer-color-body-titles: #fff;
+  --razer-color-body-text: #999;
+  --razer-color-address-card: #888;
+  --color-light: #222;
+  --color-background: #222;
+  --color-text: #999;
+
+  --color-ghost: #f1f1f1;
+  --color-ghost-animation: rgba(255, 255, 255, 0.2);
+  --ghost-radius: 5px;
+  --ghost-margin: 10px;
+
+  --btf-delay: 0.3s;
+  --btf-min-height: 100vh;
+  --btf-margin-top: 100vh;
+
+  --font-weight-bold: 400;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -45,6 +83,11 @@
 
 html {
   font-family: "Razer F5";
-
 }
 
+body {
+  font-family: "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
