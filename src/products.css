@@ -1,0 +1,152 @@
+@import url("./index.css");
+
+.products-container {
+  width: 100%;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  padding-bottom: .5rem;
+  background-color: #222;
+  list-style: none;
+}
+
+.product-item {
+  height: 580px;
+  width: auto;
+
+  flex: 1 1 49%;
+
+  display: flex;
+}
+
+.promo-banner-container {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.promo-banner-container .banner-link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+  text-decoration: none;
+}
+
+.promo-banner-container .picture-container {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.promo-banner-container .picture-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.promo-banner-container .content-container {
+  position: relative;
+  z-index: 10;
+}
+
+.promo-banner-container .text {
+  margin: 0 auto;
+  padding-top: 3.375rem;
+  padding-bottom: 0.5rem;
+
+  font-weight: 700;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.promo-banner-container .text span.title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+}
+
+.promo-banner-container .text span.subhead {
+  font-size: 1.1875rem;
+  font-weight: 300;
+  line-height: 1.3;
+  color: #fff;
+}
+
+.promo-banner-container .cta-links {
+  position: relative;
+  z-index: 12;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.promo-banner-container .cta-links .cta-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.0625rem;
+  font-weight: 300;
+  line-height: normal;
+
+  cursor: pointer;
+}
+
+.promo-banner-container .cta-links .cta-link .arrow::after {
+  content: " >";
+  color: var(--color-primary);
+  font-family: "Razer F5", sans-serif;
+  font-weight: 300;
+
+  position: absolute;
+  margin-left: 5px;
+}
+
+.promo-banner-container .cta-links .cta-link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .products-list .product-item {
+    flex: 1 1 49.5%;
+  }
+
+  .content-container .text span.title {
+    font-size: 2.5rem;
+  }
+
+  .promo-banner-container .text span.subhead {
+    font-size: 1.313rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .products-list .product-item {
+    max-width: none;
+    padding: 0 0 10px;
+
+    flex: 0 1 100%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .content-container .text {
+    max-width: 90%;
+  }
+}
