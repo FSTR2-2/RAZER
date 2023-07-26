@@ -19,5 +19,7 @@ function render(componentName, cssLinkId) {
 }
 
 render('navbar', 'navbarCss')
+render('dashboard3', 'dashboard3Css');
+render('dashboard2', 'dashboard2Css');
 render('products', 'productsCss');
 render('footer', 'footerCss');
