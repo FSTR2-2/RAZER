@@ -28,4 +28,18 @@ fetch('./footer/footer.html')
     footerContainer.innerHTML = modifiedHtml;
   })
   
+  fetch('./dashboard2/dashboard2.html')
+  .then(response => response.text())
+  .then(html => {
+    const parser = new DOMParser(); 
+    const doc = parser.parseFromString(html, 'text/html');
 
+    const cssLinkElement = doc.getElementById('dashboard2Css');
+    cssLinkElement.href = './dashboard2/dashboard2.css';
+
+    const modifiedHtml = doc.documentElement.outerHTML;
+
+    const footerContainer = document.getElementById('dashboard2-container')
+    footerContainer.innerHTML = modifiedHtml;
+  })
+  
