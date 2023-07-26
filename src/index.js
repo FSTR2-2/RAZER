@@ -1,60 +1,23 @@
-fetch("./navbar/navbar.html")
-  .then((response) => response.text())
-  .then(html => {
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, 'text/html');
 
-    const cssLinkElement = doc.getElementById('navbarCss');
-    cssLinkElement.href = './navbar/navbar.css';
+function render(componentName, cssLinkId) {
+  fetch(`./${componentName}/${componentName}.html`)
+    .then((response) => response.text())
+    .then((data) => {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(data, "text/html");
 
-    const modifiedHtml = doc.documentElement.outerHTML;
+      const cssLinkElement = doc.getElementById(`${cssLinkId}`);
+      cssLinkElement.href = `./${componentName}/${componentName}.css`;
 
-    const navbarContainer = document.getElementById('navbar-container');
-    navbarContainer.innerHTML = modifiedHtml;
-  })
+      const modifiedData = doc.documentElement.outerHTML;
 
-fetch('./footer/footer.html')
-  .then(response => response.text())
-  .then(html => {
-    const parser = new DOMParser(); 
-    const doc = parser.parseFromString(html, 'text/html');
+      const componentContainer = document.getElementById(
+        `${componentName}-container`
+      );
+      componentContainer.innerHTML = modifiedData;
+    });
+}
 
-    const cssLinkElement = doc.getElementById('footerCss');
-    cssLinkElement.href = './footer/footer.css';
-
-    const modifiedHtml = doc.documentElement.outerHTML;
-
-    const footerContainer = document.getElementById('footer-container')
-    footerContainer.innerHTML = modifiedHtml;
-  })
-  
-  fetch('./dashboard2/dashboard2.html')
-  .then(response => response.text())
-  .then(html => {
-    const parser = new DOMParser(); 
-    const doc = parser.parseFromString(html, 'text/html');
-
-    const cssLinkElement = doc.getElementById('dashboard2Css');
-    cssLinkElement.href = './dashboard2/dashboard2.css';
-
-    const modifiedHtml = doc.documentElement.outerHTML;
-
-    const footerContainer = document.getElementById('dashboard2-container')
-    footerContainer.innerHTML = modifiedHtml;
-  })
-  
-  fetch('./dashboard3/dashboard3.html')
-  .then(response => response.text())
-  .then(html => {
-    const parser = new DOMParser(); 
-    const doc = parser.parseFromString(html, 'text/html');
-
-    const cssLinkElement = doc.getElementById('dashboard3Css');
-    cssLinkElement.href = './dashboard3/dashboard3.css';
-
-    const modifiedHtml = doc.documentElement.outerHTML;
-
-    const footerContainer = document.getElementById('dashboard3-container')
-    footerContainer.innerHTML = modifiedHtml;
-  })
-  
+render('navbar', 'navbarCss')
+render('products', 'productsCss');
+render('footer', 'footerCss');
