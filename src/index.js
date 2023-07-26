@@ -43,3 +43,18 @@ fetch('./footer/footer.html')
     footerContainer.innerHTML = modifiedHtml;
   })
   
+  fetch('./dashboard3/dashboard3.html')
+  .then(response => response.text())
+  .then(html => {
+    const parser = new DOMParser(); 
+    const doc = parser.parseFromString(html, 'text/html');
+
+    const cssLinkElement = doc.getElementById('dashboard3Css');
+    cssLinkElement.href = './dashboard3/dashboard3.css';
+
+    const modifiedHtml = doc.documentElement.outerHTML;
+
+    const footerContainer = document.getElementById('dashboard3-container')
+    footerContainer.innerHTML = modifiedHtml;
+  })
+  
