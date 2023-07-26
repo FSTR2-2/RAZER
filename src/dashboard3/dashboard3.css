@@ -1,6 +1,6 @@
 @import url("../index.css");
 
-.dashboard2 {
+.dashboard3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,8 +17,8 @@
 }
 
 .img {
-    background-image: url("../assets/img/dashboard2.webp"),
-        url("../assets/img/dashboard2.jpg");
+    background-image: url("../assets/img/dashboard3.webp"),
+        url("../assets/img/dashboard3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -44,7 +44,7 @@
     font-weight: 400;
 }
 
-.keyboard-link {
+.education {
     color: var(--color-secondary);
     width: 100%;
     position: relative;
@@ -54,7 +54,7 @@
     gap: 3rem;
 }
 
-.keyboard-link a {
+.education a {
     text-decoration: none;
     color: var(--color-secondary);
 }
@@ -67,6 +67,6 @@
     margin-left: 0.4rem;
 }
 
-.keyboard-link a:hover {
+.education a:hover {
     text-decoration: underline;
 }
