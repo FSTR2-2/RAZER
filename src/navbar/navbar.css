@@ -75,22 +75,22 @@
 .iconcart {
   width: 22px;
   height: 18px;
-  background: url("./assets/header/shopping-cart.png") no-repeat;
+  background: url("/src/assets/header/shopping-cart.png") no-repeat;
   display: inline-block;
 }
 .iconcart:hover {
-  background: url("./assets/header/shopping-cart-white.png") no-repeat;
+  background: url("/src/assets/header/shopping-cart-white.png") no-repeat;
 }
 
 .iconsearch {
   width: 22px;
   height: 22px;
-  background: url("Img/magnifier.png") no-repeat;
+  background: url("/src/assets/header/magnifier.png") no-repeat;
   display: inline-block;
   align-self: center;
 }
 .iconsearch:hover {
-  background: url("Img/magnifier-white.png") no-repeat;
+  background: url("/src/assets/header/magnifier-white.png") no-repeat;
   align-self: center;
 }
 .topbar {
