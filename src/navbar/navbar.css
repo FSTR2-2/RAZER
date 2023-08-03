@@ -18,7 +18,7 @@
   width: 100%;
   z-index: 1001;
   overflow: hidden;
-  position: sticky;
+  position: fixed;
   top: 0;
   
 
@@ -75,11 +75,11 @@
 .iconcart {
   width: 22px;
   height: 18px;
-  background: url("Img/shopping-cart.png") no-repeat;
+  background: url("./assets/header/shopping-cart.png") no-repeat;
   display: inline-block;
 }
 .iconcart:hover {
-  background: url("Img/shopping-cart-white.png") no-repeat;
+  background: url("./assets/header/shopping-cart-white.png") no-repeat;
 }
 
 .iconsearch {
