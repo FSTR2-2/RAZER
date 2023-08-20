@@ -47,8 +47,7 @@
   padding: 0 0 0 41px;
   float: left;
   
-
-
+  overflow: hidden;
 }
 
 
@@ -122,6 +121,7 @@
 
 .sticky + .body {
   padding-top: 60px;
+  
 }
 
 .topbar h2 {
