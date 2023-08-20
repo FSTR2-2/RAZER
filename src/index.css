@@ -84,6 +84,10 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+}
+
 html {
   font-family: "Razer F5";
 }
@@ -93,6 +97,8 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
+
+  background-color: #000;
 }
 
 #app {
