@@ -1,0 +1,400 @@
+@import url("../index.css");
+body {
+  font-family: "Razer F5";
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#top-content {
+  max-width: 1200px;
+  width: 100%;
+  padding-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#top-content .top-content-list {
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  list-style: none;
+  overflow-x: auto;
+}
+#top-content .top-content-list::-webkit-scrollbar {
+  height: 0.4rem;
+  background-color: transparent;
+}
+#top-content .top-content-list::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 4px;
+}
+#top-content .top-content-list .list-item {
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#top-content .top-content-list .list-item a {
+  width: 100%;
+  font-size: 0.825rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+#top-content .top-content-list .list-item a:hover {
+  color: #44d62c;
+}
+#top-content .top-content-list .list-item a .img-box {
+  height: 75px;
+}
+#top-content .top-content-list .list-item a .img-box img {
+  height: 100%;
+}
+#top-content .store-heading-container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem auto 0;
+}
+#top-content .store-heading-container .heading {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+  color: #9a9a9a;
+}
+#top-content .store-heading-container .heading span {
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: #44d62c;
+}
+#top-content .store-heading-container a {
+  max-width: 170px;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+}
+#top-content .store-heading-container a img {
+  height: 30px;
+  width: auto;
+}
+#top-content .store-heading-container a .store-side-nav-link {
+  padding: 0 0.5rem;
+}
+#top-content .store-heading-container a .store-side-nav-link::after {
+  content: ">";
+  margin: 0 0.25rem;
+  color: #44d62c;
+  position: absolute;
+}
+#top-content .store-heading-container a:hover {
+  text-decoration: underline;
+}
+
+#store-page {
+  width: 100%;
+}
+#store-page .slider {
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+#store-page .slider .list-container {
+  position: relative;
+}
+#store-page .slider .list-container::after {
+  content: "";
+  background: linear-gradient(270deg, #000 0, rgba(255, 255, 255, 0) 100%);
+  width: 149px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+#store-page .slider .list-container::before {
+  content: "";
+  background: linear-gradient(90deg, #000 0, rgba(255, 255, 255, 0) 100%);
+  width: 149px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+#store-page .slider .arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  opacity: 0;
+  cursor: pointer;
+}
+#store-page .slider .arrow.left {
+  left: 1rem;
+}
+#store-page .slider .arrow.right {
+  right: 1rem;
+}
+#store-page .slider:hover .arrow {
+  opacity: 1;
+}
+#store-page .slider .headers {
+  max-width: 1200px;
+  width: 100%;
+  line-height: 1.8rem;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+#store-page .slider .headers .paragraphs p {
+  font-size: 1.125rem;
+  line-height: 1rem;
+  color: #9a9a9a;
+}
+#store-page .slider .card-scroll {
+  display: flex;
+  gap: 2rem;
+  padding: 0 2rem;
+  position: relative;
+  overflow-x: auto;
+}
+#store-page .slider .card-scroll::-webkit-scrollbar {
+  background-color: transparent;
+}
+#store-page .slider .card-scroll .card-container {
+  width: 298px;
+  height: 526px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+#store-page .slider .card-scroll .card-container .img-container {
+  width: 100%;
+  height: 298px;
+  position: relative;
+}
+#store-page .slider .card-scroll .card-container .img-container .product-img {
+  width: 100%;
+  background-color: #111;
+  object-fit: cover;
+  object-position: center;
+}
+#store-page .slider .card-scroll .card-container .img-container .chroma-badge {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+#store-page .slider .card-scroll .card-container .card-label {
+  position: absolute;
+  top: 1rem;
+  left: -0.5rem;
+  min-width: 4.25rem;
+  padding: 0.3rem 1rem;
+  font-family: "Razer F5";
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000;
+}
+#store-page .slider .card-scroll .card-container .card-label.yellow {
+  background-color: #ffc107;
+}
+#store-page .slider .card-scroll .card-container .card-label.green {
+  background-color: #44d62c;
+}
+#store-page .slider .card-scroll .card-container .card-label.blue {
+  background-color: #28aadc;
+}
+#store-page .slider .card-scroll .card-container .card-label.orange {
+  background-color: #ff9c07;
+}
+#store-page .slider .card-scroll .card-container .content-container {
+  height: 100%;
+  padding: 1rem;
+  background-color: #222;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 200;
+  display: flex;
+  flex-direction: column;
+}
+#store-page .slider .card-scroll .card-container .content-container .text-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  line-height: 0.9rem;
+  color: #eee;
+}
+#store-page .slider .card-scroll .card-container .content-container .text-container .title {
+  font-family: "Razer F5";
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+#store-page .slider .card-scroll .card-container .content-container .text-container .summary {
+  color: #9a9a9a;
+}
+#store-page .slider .card-scroll .card-container .content-container .cta-container {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#store-page .slider .card-scroll .card-container .content-container .cta-container .price-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1rem;
+}
+#store-page .slider .card-scroll .card-container .content-container .cta-container .price-text .line {
+  text-decoration: line-through;
+  color: #9a9a9a;
+}
+#store-page .slider .card-scroll .card-container .content-container .cta-container a {
+  background-color: #44d62c;
+  color: #000;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0.2rem 0.7rem;
+  border-radius: 0.5rem;
+}
+#store-page .banner-container {
+  max-width: 1200px;
+  width: 100%;
+  height: 250px;
+  margin: auto;
+  position: relative;
+}
+#store-page .banner-container .arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  opacity: 0;
+  cursor: pointer;
+}
+#store-page .banner-container .arrow.left {
+  left: 1rem;
+}
+#store-page .banner-container .arrow.right {
+  right: 1rem;
+}
+#store-page .banner-container:hover .arrow {
+  opacity: 1;
+}
+#store-page .banner-container .banner-list {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#store-page .banner-container .banner-list .banner-list-item {
+  display: block;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: 200ms opacity ease-in-out;
+  transition-delay: 200ms;
+}
+#store-page .banner-container .banner-list .banner-list-item[data-active] {
+  opacity: 1;
+  z-index: 1;
+  transition-delay: 0;
+}
+#store-page .banner-container .banner-list .banner-list-item .banner-card-container {
+  display: flex;
+  position: relative;
+}
+#store-page .banner-container .banner-list .banner-list-item .banner-card-container img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#store-page .banner-container .banner-list .banner-list-item .banner-card-container .text-container {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translateY(-50%);
+  max-width: 30%;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+#store-page .banner-container .banner-list .banner-list-item .banner-card-container .text-container p {
+  color: #9a9a9a;
+}
+#store-page .banner-container .banner-list .banner-list-item .banner-card-container .text-container .cta-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: #44d62c;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+#store-page .banner-container .banner-list .banner-list-item .banner-card-container .text-container .cta-btn::after {
+  content: ">";
+  margin: 0 0.25rem;
+  color: #44d62c;
+  position: absolute;
+  font-family: "Razer F5";
+}
+#store-page .banner-container .banner-list .banner-list-item .banner-card-container .text-container .cta-btn:hover {
+  text-decoration: underline;
+}
+#store-page #otherLinks {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 4rem;
+  border: 1px solid green;
+}
+#store-page #otherLinks .other-links-list {
+  display: flex;
+  gap: 2rem;
+}
+#store-page #otherLinks .other-links-list .list-item {
+  background-color: #222;
+  width: 250px;
+  height: 250px;
+}
+#store-page #otherLinks .other-links-list .list-item .card span {
+  display: block;
+  padding: 0.8rem 1rem;
+}
+#store-page #otherLinks .other-links-list .list-item .card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=store.css.map */
