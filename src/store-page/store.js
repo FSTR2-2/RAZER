@@ -20,7 +20,7 @@ const otherLinksContainer = document.getElementById('otherLinks');
 
 // Card Scroll //
 
-// renderHOCs('navbar', 'navbarCss')
+renderHOCs('navbar', 'navbarCss');
 
 fetch('./storeData.json')
   .then((response) => response.json())
@@ -205,23 +205,38 @@ function renderOtherLinks(container, data) {
   container.appendChild(otherLinksList);
 }
 
-// function renderHOCs(componentName, cssLinkId) {
-//   fetch(`./${componentName}/${componentName}.html`)
-//     .then((response) => response.text())
-//     .then((data) => {
-//       console.log(data);
-//       const parser = new DOMParser();
-//       const doc = parser.parseFromString(data, "text/html");
+function renderHOCs(componentName, cssLinkId) {
+  console.log(componentName, cssLinkId);
+  fetch(`../${componentName}/${componentName}.html`)
+    .then((response) => response.text())
+    .then((data) => {
+      console.log(data);
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(data, 'text/html');
 
-//       const cssLinkElement = doc.getElementById(`${cssLinkId}`);
-//       cssLinkElement.href = `../${componentName}/${componentName}.css`;
+      const cssLinkElement = doc.getElementById(`${cssLinkId}`);
+      cssLinkElement.href = `../${componentName}/${componentName}.css`;
 
-//       const modifiedData = doc.documentElement.outerHTML;
+      const razerLogo = doc.getElementById('razer-logo');
+      if (razerLogo){
+        razerLogo.src = `../assets/${componentName}/razer-logo.png`;
+      }
 
-//       const componentContainer = document.getElementById(
-//         `${componentName}-container`
-//       );
-//       componentContainer.innerHTML = modifiedData;
-//     });
-// }
+      const iconSearch = doc.getElementById('iconSearch')
+      if(iconSearch)  {
+        iconSearch.src = `../assets/${componentName}/magnifier-white.png`
+      }
 
+      const iconCart = doc.getElementById('iconCart')
+      if(iconCart)  {
+        iconCart.src = `../assets/${componentName}/shopping-cart-white.png`
+      }
+
+      const modifiedData = doc.documentElement.outerHTML;
+
+      const componentContainer = document.getElementById(
+        `${componentName}-container`
+      );
+      componentContainer.innerHTML = modifiedData;
+    });
+}
