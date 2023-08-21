@@ -7,7 +7,7 @@
   position: absolute;
   margin-left: 0.4rem;
 }
-.lifestyle-navbar {
+.services-navbar {
   background-color: #1a1a1a;
   border-bottom: 1px solid #44d62c;
   padding: 18px;
@@ -55,8 +55,8 @@
   background-color: #111;
   text-align: center;
   padding: 48px;
-  padding-left: 50%;
-  padding-right: 50%;
+  padding-left: 25%;
+  padding-right: 25%;
   .header {
     color: #44d62c;
     font-family: "Razer F5";
@@ -76,7 +76,8 @@
   border-bottom: #44d62c solid 1px;
   .heading {
     text-align: center;
-    background-image: url("https://assets2.razerzone.com/images/pnx.assets/0666dc773bd5460ed41bf6e1a1ebad3a/lifestyle-chairs-category-banner.jpg");
+
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/d7d8a5e49e0713010baa91b8c412cdda/services-razer-gold.jpg");
 
     background-position: center;
     background-size: center;
@@ -122,7 +123,8 @@
   border-bottom: #44d62c solid 1px;
   .heading {
     text-align: center;
-    background-image: url("https://assets2.razerzone.com/images/pnx.assets/f016346e8c8e71ae1ad6731d95943a86/sneki-snek-s2-desktop-cat-banner.jpg");
+
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/b9e965bfe9e958df22d94e6eaea4dfa6/services-razer-silver.jpg");
 
     background-position: center;
     background-size: center;
@@ -141,10 +143,9 @@
     p {
       color: #999;
       font-size: 18px;
-      text-align: center;
       padding: 7px 16px 20px;
-      margin-left: 50%;
-      margin-right: 50%;
+      padding-left: 25%;
+      padding-right: 25%;
     }
   }
 
@@ -169,7 +170,8 @@
   border-bottom: #44d62c solid 1px;
   .heading {
     text-align: center;
-    background-image: url("https://assets2.razerzone.com/images/pnx.assets/cd2d636f26bd91dd99923c71b9e84a83/complete-your-setup-campaign-category-banner-desktop.jpg");
+
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/5044606f04fbcc28b98ca2be9b48bc3e/services-gold-pins.jpg");
 
     background-position: center;
     background-size: center;
@@ -215,7 +217,8 @@
   border-bottom: #44d62c solid 1px;
   .heading {
     text-align: center;
-    background-image: url("https://assets2.razerzone.com/images/pnx.assets/25525a620ccdb5488244fde60674f5e0/collabs-category-1920x700-desktop.jpg");
+
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/c44ce6aa9d981f08ce3f054e20fa07b2/services-gold-webshop.jpg");
 
     background-position: center;
     background-size: center;
@@ -261,7 +264,8 @@
   border-bottom: #44d62c solid 1px;
   .heading {
     text-align: center;
-    background-image: url("https://assets2.razerzone.com/images/pnx.assets/9cb7c4425da9e5099bd4e2afebc9b56b/apparel-category-1920x700-desktop.jpg");
+
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/c126593c168b557f2d7f3f0f596f4364/services-gift-card.jpg");
 
     background-position: center;
     background-size: center;
@@ -280,8 +284,7 @@
     p {
       color: #999;
       font-size: 18px;
-      
-      text-align: center;
+      padding: 7px 16px 20px;
       padding-left: 25%;
       padding-right: 25%;
     }
@@ -308,7 +311,8 @@
   border-bottom: #44d62c solid 1px;
   .heading {
     text-align: center;
-    background-image: url("https://assets2.razerzone.com/images/pnx.assets/df70fc0371004f9fb85d60a62f905502/lifestyle-bag.jpg");
+
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/cd51cc9a2c8e89918bcce4a6b66132d3/services-razer-care.jpg");
 
     background-position: center;
     background-size: center;
@@ -354,145 +358,8 @@
   border-bottom: #44d62c solid 1px;
   .heading {
     text-align: center;
-    background-image: url("https://assets2.razerzone.com/images/pnx.assets/3a1137ca109d372509c5a129f0e62483/lifestyle-gear.jpg");
 
-    background-position: center;
-    background-size: center;
-    background-position: cover;
-
-    min-height: 700px;
-
-    h2 {
-      color: #eee;
-      font-family: "Razer F5";
-      font-size: 28px;
-      padding: 65px 0px 0px;
-      margin: 0px 16px 19.2px;
-    }
-
-    p {
-      color: #999;
-      font-size: 18px;
-      padding: 7px 16px 20px;
-      padding-left: 25%;
-      padding-right: 25%;
-    }
-  }
-
-  .links {
-    text-align: center;
-    font-size: 16px;
-    .arrow::after {
-      @include ok;
-    }
-
-    a {
-      text-decoration: none;
-      color: #44d62c;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-  }
-}
-.dashboard8 {
-  border-bottom: #44d62c solid 1px;
-  .heading {
-    text-align: center;
-    background-image: url("https://assets2.razerzone.com/images/pnx.assets/2bce7b0e7f5425138cb2daf35ff9fa7a/razer-cloth-mask-v2-desktop-cat-banner.jpg");
-
-    background-position: center;
-    background-size: center;
-    background-position: cover;
-
-    min-height: 700px;
-
-    h2 {
-      color: #eee;
-      font-family: "Razer F5";
-      font-size: 28px;
-      padding: 65px 0px 0px;
-      margin: 0px 16px 19.2px;
-    }
-
-    p {
-      color: #999;
-      font-size: 18px;
-      padding: 7px 16px 20px;
-      padding-left: 25%;
-      padding-right: 25%;
-    }
-  }
-
-  .links {
-    text-align: center;
-    font-size: 16px;
-    .arrow::after {
-      @include ok;
-    }
-
-    a {
-      text-decoration: none;
-      color: #44d62c;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-  }
-}
-.dashboard9 {
-  border-bottom: #44d62c solid 1px;
-  .heading {
-    text-align: center;
-    background-image: url("https://assets2.razerzone.com/images/pnx.assets/0248d471a2bf516300a5af348fe1655d/lifestyle-sneki-snek.jpg");
-
-    background-position: center;
-    background-size: center;
-    background-position: cover;
-
-    min-height: 700px;
-
-    h2 {
-      color: #eee;
-      font-family: "Razer F5";
-      font-size: 28px;
-      padding: 65px 0px 0px;
-      margin: 0px 16px 19.2px;
-    }
-
-    p {
-      color: #999;
-      font-size: 18px;
-      padding: 7px 16px 20px;
-      padding-left: 25%;
-      padding-right: 25%;
-    }
-  }
-
-  .links {
-    text-align: center;
-    font-size: 16px;
-    .arrow::after {
-      @include ok;
-    }
-
-    a {
-      text-decoration: none;
-      color: #44d62c;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-  }
-}
-.dashboard10 {
-  border-bottom: #44d62c solid 1px;
-  .heading {
-    text-align: center;
-    background-image: url("https://assets2.razerzone.com/images/pnx.assets/3bb1bbc90757131821e400fa6ada15dd/lifestyle-respawn.jpg");
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/5650df732c97f6ce9e0c813fc57b9605/services-razer-id.jpg");
 
     background-position: center;
     background-size: center;
