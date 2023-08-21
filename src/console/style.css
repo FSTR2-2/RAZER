@@ -1,0 +1,597 @@
+@import url("../index.css");
+#console-page {
+  width: 100%;
+}
+#console-page .navbar-submenu {
+  background-color: #1a1a1a;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 1.5;
+  padding: 18px;
+}
+#console-page .navbar-submenu ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-height: max-content;
+  gap: 35px;
+}
+#console-page .navbar-submenu ul li {
+  list-style: none;
+}
+#console-page .navbar-submenu ul li a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: "Razer F5";
+  font-size: 0.75rem;
+}
+#console-page .navbar-submenu ul li a:hover {
+  color: #44D62C;
+}
+#console-page .navbar-submenu ul li a .icon-box {
+  height: 40px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+#console-page .navbar-submenu ul li > p {
+  color: #F5B21D;
+  font-size: 12px;
+  text-align: center;
+}
+#console-page .razer-notification {
+  width: 100%;
+  background-color: #555;
+}
+#console-page .razer-notification .notification {
+  color: #eee;
+  font-size: 14px;
+  padding: 11.5px 40px 9.5px 30px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-top: 1px solid #44D62C;
+}
+#console-page .console-intro {
+  background-color: #111;
+  display: flex;
+}
+#console-page .console-intro .container {
+  display: flex;
+  padding: 48px 0px;
+  background-color: #111;
+  margin-bottom: 0;
+  justify-content: center;
+}
+#console-page .console-intro .container div {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 70%;
+}
+#console-page .console-intro .container div h1 {
+  font-size: 36px;
+  color: #44D62C;
+  font-family: "Razer F5";
+  display: flex;
+  justify-content: center;
+  font-weight: 200;
+  margin: 0px 0px 8px;
+  padding: 0px 0px 5px;
+}
+#console-page .console-intro .container div p {
+  color: #888;
+  font-family: "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "apple color emoji", "segoe ui emoji", "Segoe UI Symbol", "noto color emoji";
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+#console-page .video-console .video-container {
+  width: 100%;
+}
+#console-page .video-console .video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#console-page .card-panel {
+  background-color: #252525;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 2rem;
+}
+#console-page .card-panel .card-item {
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  max-width: 490.4px;
+  max-height: 616.5px;
+  min-width: 250px;
+  border-bottom: 0.8px solid #44D62C;
+}
+#console-page .card-panel .card-item .img-container {
+  display: flex;
+  justify-content: center;
+}
+#console-page .card-panel .card-item .img-container a img {
+  max-width: 100%;
+}
+#console-page .card-panel .card-item .text-container {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 14px;
+  height: 100%;
+}
+#console-page .card-panel .card-item .text-container div {
+  padding: 10px 10px 0px;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+#console-page .card-panel .card-item .text-container p {
+  color: #888;
+  padding: 10px 10px 0;
+}
+#console-page .card-panel .card-item .text-container a {
+  color: #44D62C;
+  display: flex;
+  padding: 10px;
+  text-decoration: none;
+  justify-self: flex-end;
+}
+#console-page .card-panel .card-item .text-container a:hover {
+  text-decoration: underline;
+}
+#console-page .dashboard93 .container {
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/585a94a7b6316023e5ca412a1896d43e/razer-kitsune-category-desktop-1920x700.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-bottom: 0.8px solid #44D62C;
+  margin: 0;
+}
+#console-page .dashboard93 .container h2 {
+  color: #fff;
+  font-family: "Razer F5";
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 28px;
+  padding: 65px 0px 0px;
+  margin: 0px 16px 20px;
+}
+#console-page .dashboard93 .container p {
+  color: #999;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 7px 16px 20px;
+}
+#console-page .dashboard93 .container a {
+  text-decoration: none;
+  color: #44D62C;
+  font-size: 16px;
+  text-decoration: none;
+}
+#console-page .dashboard93 .container a::after {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
+#console-page .dashboard93 .container a:hover {
+  text-decoration: underline;
+}
+#console-page .dashboard92 {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Roboto", sans-serif;
+  background-image: url("/assets/console/back-to-school-campaign-1920x400.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 55%;
+}
+#console-page .dashboard92 .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  margin-right: 60px;
+  gap: 1rem;
+}
+#console-page .dashboard92 .text-container h2 {
+  color: #FFF;
+  font-family: "Razer F5";
+  font-size: 28px;
+  font-weight: 300;
+}
+#console-page .dashboard92 .text-container p {
+  font-weight: 300;
+  color: #999;
+  font-size: 18px;
+}
+#console-page .dashboard92 .text-container a {
+  text-decoration: none;
+  color: #44D62C;
+  font-size: 16px;
+  font-weight: 400;
+}
+#console-page .dashboard92 .text-container a::after {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
+#console-page .dashboard92 .text-container a:hover {
+  text-decoration: underline;
+}
+#console-page .dashboard98 {
+  background-color: #111;
+}
+#console-page .dashboard98 .container {
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/0e064526124df6127811074622ca706f/sonic-the-hedgehog-xbox-controller-and-charging-stand-1920x700-desktop.jpg);
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 699px;
+  border-bottom: 0.8px solid #44D62C;
+  margin-bottom: 0;
+}
+#console-page .dashboard98 .container h2 {
+  color: #fff;
+  font-family: "Razer F5";
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 28px;
+  padding: 65px 0px 0px;
+}
+#console-page .dashboard98 .container p {
+  font-weight: 200;
+  color: #999;
+  font-size: 18px;
+  padding: 7px 16px 20px;
+  font-family: "Roboto", sans-serif;
+  margin: 0px 12px;
+  line-height: 27px;
+}
+#console-page .dashboard98 .container a {
+  text-decoration: none;
+  color: #44D62C;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0px 16px;
+}
+#console-page .dashboard98 .container a::after {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
+#console-page .dashboard98 .container a:hover {
+  text-decoration: underline;
+}
+#console-page .card-panel1 {
+  background-color: #252525;
+  max-height: max-content;
+  display: flex;
+  gap: 1.7rem;
+  padding: 25px 0px;
+  justify-content: center;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+#console-page .card-panel1 .card-item {
+  background-color: #111;
+  border-bottom: 0.8px solid #44D62C;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 1.125rem;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+#console-page .card-panel1 .card-item .img-container img {
+  width: 100%;
+  min-width: 250px;
+}
+#console-page .card-panel1 .card-item .text-container {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  height: 100%;
+  justify-content: space-between;
+}
+#console-page .card-panel1 .card-item .text-container h2 {
+  padding: 10px 10px 0px;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 300;
+}
+#console-page .card-panel1 .card-item .text-container p {
+  color: #888;
+  padding: 10px 10px 0;
+}
+#console-page .card-panel1 .card-item .text-container a {
+  color: #44D62C;
+  text-decoration: none;
+  padding: 10px;
+}
+#console-page .card-panel1 .card-item .text-container a::after {
+  content: ">";
+}
+#console-page .card-panel1 .card-item .text-container a:hover {
+  text-decoration: underline;
+}
+#console-page .dashboard99 {
+  background-color: #111;
+}
+#console-page .dashboard99 .container {
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/cd8c66be4b03c7637164d056fd453195/gamesetmatch-category-1920x700-desktop.jpg);
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 699px;
+  border-bottom: 0.8px solid #44D62C;
+  margin-bottom: 0;
+}
+#console-page .dashboard99 .container h2 {
+  color: #fff;
+  font-family: "Razer F5";
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 28px;
+  padding: 65px 0px 0px;
+}
+#console-page .dashboard99 .container p {
+  font-weight: 300;
+  color: #999;
+  max-width: 950px;
+  font-size: 18px;
+  padding: 7px 16px 20px;
+  font-family: "Roboto", sans-serif;
+  margin: 0px 25px;
+  line-height: 27px;
+  text-align: center;
+  opacity: 5;
+}
+#console-page .dashboard99 .container a {
+  text-decoration: none;
+  color: #44D62C;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0px 16px;
+}
+#console-page .dashboard99 .container a::after {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
+#console-page .dashboard99 .container a:hover {
+  text-decoration: underline;
+}
+#console-page .dashboard96 {
+  background-color: #111;
+}
+#console-page .dashboard96 .container {
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/d97d6645a23af786a27123af21877690/razer-wolverine-v2-chroma-category-1920x700-desktop.jpg);
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 699px;
+  border-bottom: 0.8px solid #44D62C;
+  margin-bottom: 0;
+}
+#console-page .dashboard96 .container h2 {
+  color: #fff;
+  font-family: "Razer F5";
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 28px;
+  padding: 65px 0px 0px;
+}
+#console-page .dashboard96 .container p {
+  font-weight: 300;
+  color: #999;
+  max-width: 950px;
+  font-size: 18px;
+  padding: 7px 16px 20px;
+  font-family: "Roboto", sans-serif;
+  margin: 0px 25px;
+  line-height: 27px;
+  text-align: center;
+  opacity: 5;
+}
+#console-page .dashboard96 .container a {
+  text-decoration: none;
+  color: #44D62C;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0px 16px;
+}
+#console-page .dashboard96 .container a::after {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
+#console-page .dashboard96 .container a:hover {
+  text-decoration: underline;
+}
+#console-page .dashboard95 {
+  background-color: #111;
+}
+#console-page .dashboard95 .container {
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/1f2c6dbd38e9414c6ed618b0ac283295/connect-compete-conquer-category-2023-1920x700-desktop.jpg);
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 699px;
+  border-bottom: 0.8px solid #44D62C;
+  margin-bottom: 0;
+}
+#console-page .dashboard95 .container h2 {
+  color: #fff;
+  font-family: "Razer F5";
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 28px;
+  padding: 65px 0px 0px;
+}
+#console-page .dashboard95 .container p {
+  font-weight: 300;
+  color: #999;
+  max-width: 950px;
+  font-size: 18px;
+  padding: 7px 16px 20px;
+  font-family: "Roboto", sans-serif;
+  margin: 0px 25px;
+  line-height: 27px;
+  text-align: center;
+  opacity: 5;
+}
+#console-page .dashboard95 .container a {
+  text-decoration: none;
+  color: #44D62C;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0px 16px;
+}
+#console-page .dashboard95 .container a::after {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
+#console-page .dashboard95 .container a:hover {
+  text-decoration: underline;
+}
+#console-page .intro-tag {
+  background-color: #252525;
+  padding: 64px 0px 40px;
+  color: #FFF;
+}
+#console-page .intro-tag .container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 24px;
+}
+#console-page .intro-tag .container h2 {
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: RazerF5, sans-serif;
+  font-weight: 200;
+  padding: 0px 0px 5pxd;
+  margin: 0px 0px 8px;
+}
+#console-page .intro-tag .container p {
+  color: #999;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.75rem;
+}
+#console-page .card-panel .container {
+  background-color: #252525;
+  max-height: max-content;
+  padding: 25px 0px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#console-page .card-panel .container .card-item {
+  border-bottom: 0.8px solid #44D62C;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 1.125rem;
+  max-width: 450px;
+}
+#console-page .card-panel .container .card-item .img-container img {
+  background-color: #000;
+  width: 100%;
+  min-width: 250px;
+}
+#console-page .card-panel .container .card-item .text-container {
+  background-color: #111;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  height: 100%;
+}
+#console-page .card-panel .container .card-item .text-container .text1 {
+  padding: 10px 10px 0px;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 300;
+}
+#console-page .card-panel .container .card-item .text-container p {
+  color: #888;
+  padding: 10px 10px 0;
+}
+#console-page .card-panel .container .card-item .text-container a {
+  color: #44D62C;
+  text-decoration: none;
+  padding: 10px;
+}
+#console-page .card-panel .container .card-item .text-container a::after {
+  content: ">";
+}
+#console-page .card-panel .container .card-item .text-container a:hover {
+  text-decoration: underline;
+}
+#console-page .dashboard94 {
+  display: flex;
+}
+#console-page .dashboard94 .img-container {
+  width: 100vw;
+}
+#console-page .dashboard94 .img-container .text-container h2 {
+  font-family: "Razer-F5";
+  font-weight: 200;
+  color: #FFF;
+  font-size: 28px;
+}
+#console-page .dashboard94 .img-container .text-container p {
+  font-size: 1rem;
+}
+#console-page .dashboard94 .img-container .text-container a {
+  font-size: 1rem;
+}
+
+@media (max-width: 1460px) {
+  #consolepage {
+    flex-wrap: nowrap;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
