@@ -569,27 +569,55 @@
 #console-page .card-panel .container .card-item .text-container a:hover {
   text-decoration: underline;
 }
-#console-page .dashboard94 {
+#console-page .dashboard94 .container {
   display: flex;
+  justify-content: center;
+  position: relative;
 }
-#console-page .dashboard94 .img-container {
-  width: 100vw;
+#console-page .dashboard94 .container .img-container {
+  display: flex;
+  position: absolute;
 }
-#console-page .dashboard94 .img-container .text-container h2 {
-  font-family: "Razer-F5";
+#console-page .dashboard94 .container .img-container img {
+  width: 100%;
+  height: 400px;
+}
+#console-page .dashboard94 .container .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 30%;
+  position: absolute;
+  margin: 0 0 0 1rem;
+  padding: 0 1rem;
+  height: 100%;
+}
+#console-page .dashboard94 .container .text-container h2 {
+  font-family: "Razer-F5", sans-serif;
   font-weight: 200;
   color: #FFF;
   font-size: 28px;
+  margin: 1rem 0;
+  line-height: 30px;
 }
-#console-page .dashboard94 .img-container .text-container p {
-  font-size: 1rem;
+#console-page .dashboard94 .container .text-container p {
+  font-size: 1.1rem;
+  color: rgba(136, 136, 136, 0.5333333333);
 }
-#console-page .dashboard94 .img-container .text-container a {
+#console-page .dashboard94 .container .text-container a {
+  text-decoration: none;
+  color: #44D62C;
   font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  padding: 1rem 0;
+}
+#console-page .dashboard94 .container .text-container a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 1460px) {
-  #consolepage {
+  .cardpanel .container {
     flex-wrap: nowrap;
   }
 }
