@@ -3,9 +3,6 @@ body {
   font-family: "Razer F5";
   background-color: #000;
   color: #fff;
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
 }
 
 a {
@@ -14,10 +11,10 @@ a {
 }
 
 #top-content {
-  margin: auto;
   max-width: 1200px;
   width: 100%;
   padding-top: 2.5rem;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -396,6 +393,52 @@ a {
   width: 100%;
   height: 200px;
   object-fit: cover;
+}
+#store-page #whyBuyMultiPanels {
+  width: 100%;
+  max-width: 1200px;
+  margin: 3rem auto;
+}
+#store-page #whyBuyMultiPanels .multipanels-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+#store-page #whyBuyMultiPanels .multipanels-container h2 {
+  font-family: "Razer F5";
+  font-size: 2.25rem;
+  color: #44d62c;
+  text-transform: uppercase;
+  align-self: center;
+}
+#store-page #whyBuyMultiPanels .multipanels-container .multipanels-list {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: 0 0.75rem;
+}
+#store-page #whyBuyMultiPanels .multipanels-container .multipanels-list .list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+#store-page #whyBuyMultiPanels .multipanels-container .multipanels-list .list-item h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+  margin: 1rem auto 0.25rem;
+}
+#store-page #whyBuyMultiPanels .multipanels-container .multipanels-list .list-item p {
+  font-size: 1.125rem;
+  color: #9a9a9a;
+  text-align: center;
+  margin: 0.5rem 0 1.25rem;
+}
+
+.multipanel-icon {
+  width: 65px;
+  height: 65px;
 }
 
 /*# sourceMappingURL=store.css.map */
