@@ -63,6 +63,7 @@
   background-color: #111;
   margin-bottom: 0;
   justify-content: center;
+  z-index: 1;
 }
 #console-page .console-intro .container div {
   padding-left: 30px;
@@ -88,10 +89,12 @@
   line-height: 1.5;
 }
 #console-page .video-console .video-container {
-  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
 }
 #console-page .video-console .video-container video {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   object-fit: cover;
 }
@@ -100,7 +103,8 @@
   display: flex;
   justify-content: center;
   gap: 0.75rem;
-  padding: 2rem;
+  padding: 25px 0;
+  z-index: 1;
 }
 #console-page .card-panel .card-item {
   background-color: #111;
@@ -506,9 +510,9 @@
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
-  font-family: RazerF5, sans-serif;
+  font-family: "Razer F5", sans-serif;
   font-weight: 200;
-  padding: 0px 0px 5pxd;
+  padding: 0px 0px 5px;
   margin: 0px 0px 8px;
 }
 #console-page .intro-tag .container p {
@@ -520,14 +524,23 @@
   font-weight: 300;
   line-height: 1.75rem;
 }
+#console-page .card-panel {
+  padding: 0;
+}
 #console-page .card-panel .container {
   background-color: #252525;
   max-height: max-content;
-  padding: 25px 0px;
+  padding: 25px 12px;
   display: flex;
+  justify-content: center;
   gap: 15px;
   flex-wrap: wrap;
-  justify-content: center;
+  margin: 0;
+}
+@media (min-width: 1150px) {
+  #console-page .card-panel .container {
+    flex-wrap: nowrap;
+  }
 }
 #console-page .card-panel .container .card-item {
   border-bottom: 0.8px solid #44D62C;
@@ -546,6 +559,10 @@
   font-weight: 300;
   font-size: 14px;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 #console-page .card-panel .container .card-item .text-container .text1 {
   padding: 10px 10px 0px;
@@ -594,7 +611,7 @@
   height: 100%;
 }
 #console-page .dashboard94 .container .text-container h2 {
-  font-family: "Razer-F5", sans-serif;
+  font-family: "Razer F5", sans-serif;
   font-weight: 200;
   color: #FFF;
   font-size: 28px;
@@ -602,8 +619,10 @@
   line-height: 30px;
 }
 #console-page .dashboard94 .container .text-container p {
-  font-size: 1.1rem;
+  font-size: 1.125rem;
   color: rgba(136, 136, 136, 0.5333333333);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 #console-page .dashboard94 .container .text-container a {
   text-decoration: none;
@@ -614,12 +633,6 @@
 }
 #console-page .dashboard94 .container .text-container a:hover {
   text-decoration: underline;
-}
-
-@media (max-width: 1460px) {
-  .cardpanel .container {
-    flex-wrap: nowrap;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
