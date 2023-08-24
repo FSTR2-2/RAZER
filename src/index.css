@@ -1,32 +1,32 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 @font-face {
-  font-family: "Razer F5";
-  src: url("./assets/fonts/RazerF5.woff") format("woff");
+  font-family: 'Razer F5';
+  src: url('./assets/fonts/RazerF5.woff') format('woff');
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "Razer F5";
-  src: url("./assets/fonts/RazerF5Bold.woff") format("woff");
+  font-family: 'Razer F5';
+  src: url('./assets/fonts/RazerF5Bold.woff') format('woff');
   font-weight: bold;
 }
 
 @font-face {
-  font-family: "Razer F5";
-  src: url("./assets/fonts/RazerF5Light.woff") format("woff");
+  font-family: 'Razer F5';
+  src: url('./assets/fonts/RazerF5Light.woff') format('woff');
   font-weight: 300;
 }
 
 @font-face {
-  font-family: "Razer F5";
-  src: url("./assets/fonts/RazerF5Thin.woff") format("woff");
+  font-family: 'Razer F5';
+  src: url('./assets/fonts/RazerF5Thin.woff') format('woff');
   font-weight: 200;
 }
 
 @font-face {
-  font-family: "Razer F5";
-  src: url("./assets/fonts/RazerF5SemiBold.woff") format("woff");
+  font-family: 'Razer F5';
+  src: url('./assets/fonts/RazerF5SemiBold.woff') format('woff');
   font-weight: 500;
 }
 
@@ -74,6 +74,26 @@
   --btf-margin-top: 100vh;
 
   --font-weight-bold: 400;
+
+  --color-gray-10: hsl(0, 0%, 10%);
+  --color-gray-15: hsl(0, 0%, 15%);
+  --color-gray-20: hsl(0, 0%, 20%);
+  --color-gray-25: hsl(0, 0%, 25%);
+  --color-gray-30: hsl(0, 0%, 30%);
+  --color-gray-35: hsl(0, 0%, 35%);
+  --color-gray-40: hsl(0, 0%, 40%);
+  --color-gray-45: hsl(0, 0%, 45%);
+  --color-gray-50: hsl(0, 0%, 50%);
+  --color-gray-55: hsl(0, 0%, 55%);
+  --color-gray-60: hsl(0, 0%, 60%);
+  --color-gray-65: hsl(0, 0%, 65%);
+  --color-gray-70: hsl(0, 0%, 70%);
+  --color-gray-75: hsl(0, 0%, 75%);
+  --color-gray-80: hsl(0, 0%, 80%);
+  --color-gray-85: hsl(0, 0%, 85%);
+  --color-gray-90: hsl(0, 0%, 90%);
+  --color-gray-95: hsl(0, 0%, 95%);
+  --color-white: hsl(0, 0%, 100%);
 }
 
 *,
@@ -89,11 +109,11 @@ ul {
 }
 
 html {
-  font-family: "Razer F5";
+  font-family: 'Razer F5';
 }
 
 body {
-  font-family: "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -113,6 +133,3 @@ body {
 #navbar-container.container {
   margin: 0;
 }
-
-
-
