@@ -3,6 +3,9 @@
 html {
   overflow-x: hidden;
 }
+body {
+  background-color: #222;
+}
 
 .community-submenu {
   background-color: #1a1a1a;
@@ -40,6 +43,7 @@ html {
           display: flex;
           flex-direction: column;
           align-items: center;
+          text-decoration: none;
           .icon {
             text-align: center;
             height: 40px;
@@ -75,49 +79,268 @@ html {
     text-align: center;
   }
 }
-section {
-    .usp-container {
-        display: flex;
-        position: relative;
-        justify-content: center;
-        max-width: 1920px;
-        max-height: 1080px;
-        border: 1px solid red;
-        
-        .img-container {
-            position: absolute;                                                                                                                                                                                                             
-            z-index: 0;
-            img {
-                width: 100%;    
-            }
-        }
-        .content-grid {
-            position: absolute;
-            width: 100%;
-            color: white;
-            z-index: 1;
-            display: grid;
-            grid-template-rows: auto;
-            align-content: flex-start;
-            
-            .text-container {
-                color: white;
-                h1 {
-                    padding: 0 16px;
-                    margin: 16px 0;
-                    font-size: 42px;
-                    font-family: "Razer F5",sans-serif;
-                    font-weight: 300;
 
-                    strong{
-                        font-size: 92px;
-                        color: #44d62c;
-                        font-weight: bold;
-                        font-weight: 700;
-                    }
-                    
-                }
-            }
+.usp-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1920px;
+  position: relative;
+  max-height: 1080px;
+  min-height: 700px;
+  background-position: center bottom;
+  background-size: cover;
+
+  @media (max-width:768px) {
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/657269bc69a904f4ef0bc2752c978c08/razer-community-hero-768x500.jpg);
+  }
+
+  .img-container {
+    position: absolute;
+  }
+  .content-grid {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    display: grid;
+    grid-template-rows: auto;
+
+    .text-container {
+      color: #fff;
+      text-align: center;
+      h1 {
+        padding: 0 16px;
+        margin: 16px 0;
+        font-size: 42px;
+        font-family: "Razer F5", sans-serif;
+        font-weight: 300;
+        line-height: 50px;
+
+        strong {
+          font-size: 92px;
+          color: #44d62c;
+          font-weight: bold;
+          font-weight: 700;
+          line-height: 75px;
         }
+      }
     }
+  }
+}
+.intro-tag {
+  background-color: #44d62c;
+  @media (min-width:980px){
+    padding: 0 15%;
+  }
+  .container {
+    padding: 5rem 1rem;
+    text-align: center;
+    p {
+      color: #000;
+      font-size: 1.125rem;
+      font-weight: 300;
+      grid-area: second;
+      line-height: 1.5rem;
+      line-height: 1.75rem;
+    }
+  }
+}
+.d1-container {
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  border-bottom: 1px solid #44D62C;
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/4ba81e9537f3b39f0ff8768ef1a2165c/razer-brand-campaign-2022-category-1920x700-desktop.jpg);
+  @media (max-width:768px) {
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/4ba81e9537f3b39f0ff8768ef1a2165c/razer-brand-campaign-2022-category-450x480-mobile.jpg);
+    max-height: 530px !important;
+    padding: 0;
+  }
+  h2 {
+    margin: 0 auto 1.25rem;
+    color: #fff;
+    font-weight: 300;
+    padding: 4.0625rem 0 0;
+    font-family: "Razer F5",Arial,Helvetica,sans-serif;
+    font-size: 1.75rem;
+    text-align: center;
+    letter-spacing: 0.0625rem;
+    line-height: 1.875rem;
+  }
+  a {
+    font-size: 1rem;
+    color: #44d62c;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+.d2-container {
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  border-bottom: 1px solid #44D62C;
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/a53db448965f99aee538831a3e3df0f1/razer-community.jpg);
+  @media (max-width:768px) {
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/a53db448965f99aee538831a3e3df0f1/razer-community-450x480-mobile.jpg);
+    max-height: 530px !important;
+    padding: 0;
+  }
+  h2 {
+    margin: 0 auto 1.25rem;
+    color: #fff;
+    font-weight: 300;
+    padding: 4.0625rem 0 0;
+    font-family: "Razer F5",Arial,Helvetica,sans-serif;
+    font-size: 1.75rem;
+    text-align: center;
+    letter-spacing: 0.0625rem;
+    line-height: 1.875rem;
+  }
+  a {
+    font-size: 1rem;
+    color: #44d62c;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+.d3-container {
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  border-bottom: 1px solid #44D62C;
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/0b335ec990ba572534f8215e14e8008c/razer-community-stream.jpg);
+  @media (max-width:768px) {
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/0b335ec990ba572534f8215e14e8008c/razer-community-stream-450x480-mobile.jpg);
+    max-height: 530px !important;
+    padding: 0;
+  }
+  h2 {
+    margin: 0 auto 1.25rem;
+    color: #fff;
+    font-weight: 300;
+    padding: 4.0625rem 0 0;
+    font-family: "Razer F5",Arial,Helvetica,sans-serif;
+    font-size: 1.75rem;
+    text-align: center;
+    letter-spacing: 0.0625rem;
+    line-height: 1.875rem;
+  }
+  a {
+    font-size: 1rem;
+    color: #44d62c;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+.d4-container {
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  border-bottom: 1px solid #44D62C;
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/c76379f9591f69e1df778c1354aac718/razer-esports.jpg);
+  @media (max-width:768px) {
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/c76379f9591f69e1df778c1354aac718/razer-esports-450x480-mobile.jpg);
+    max-height: 530px !important;
+    padding: 0;
+  }
+  h2 {
+    margin: 0 auto 1.25rem;
+    color: #fff;
+    font-weight: 300;
+    padding: 4.0625rem 0 0;
+    font-family: "Razer F5",Arial,Helvetica,sans-serif;
+    font-size: 1.75rem;
+    text-align: center;
+    letter-spacing: 0.0625rem;
+    line-height: 1.875rem;
+  }
+  a {
+    font-size: 1rem;
+    color: #44d62c;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+.card-container {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35%, 1fr));
+    width: 100%;
+    height: 100%;
+    gap: 1rem;
+    justify-content: center;
+    padding: 3rem 0;
+    position: relative;
+
+    @media (max-width:768px) {
+      grid-template-columns: repeat(auto-fit, minmax(50%, 1fr)) ;
+      
+      .item {
+        padding: 3rem 0;
+        width: 480px!important;
+        height: 587px!important;
+        justify-self: center;
+        align-self: center;
+      }
+    }
+
+    @media (max-width:425px) {
+      height: 450px;
+    }
+
+    .item {
+      height: 580px;
+      border-bottom: 1px solid #44D62C;
+      background-image: url(https://assets2.razerzone.com/images/pnx.assets/848a8203ca16f29ed8ac7de702040c58/razer-insider.jpg);
+      background-position: center bottom;
+      background-size: cover;
+      background-repeat: no-repeat;
+      .text {
+        color: #fff;
+        font-family: "Razer F5",Arial,Helvetica,sans-serif;
+        font-size: 1.75rem;
+        font-weight: 300;
+        line-height: 1.75rem;
+        padding: 4.065rem 0 0;
+        text-align: center;
+        margin: 0px 10px 20px;
+      }
+      a{
+        text-decoration: none;
+        color: #44D62C;
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+        font-family: "Roboto",Helvetica,Arial,sans-serif;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+    .item.second{
+      background-image: url(https://assets2.razerzone.com/images/pnx.assets/848a8203ca16f29ed8ac7de702040c58/razer-sustainability.jpg);
+    }
+    .item.third{
+      background-image: url(https://assets2.razerzone.com/images/pnx.assets/848a8203ca16f29ed8ac7de702040c58/razer-wallpapers.jpg);
+    }
+    .item.fourth{
+      background-image: url(https://assets2.razerzone.com/images/pnx.assets/848a8203ca16f29ed8ac7de702040c58/razer-developer.jpg);
+    }
+  }
 }
