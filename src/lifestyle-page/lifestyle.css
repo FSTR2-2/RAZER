@@ -33,15 +33,7 @@
   text-align: center;
 }
 
-.alert {
-  background-color: #555555;
-  color: #eee;
-  text-align: center;
-  height: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .intro-tag {
   background-color: #111;
