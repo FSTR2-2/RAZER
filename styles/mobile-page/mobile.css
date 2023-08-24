@@ -1,0 +1,313 @@
+@import url("../index.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&family=Oswald:wght@600&family=Roboto:wght@100;300;400&display=swap");
+.mobile-navbar {
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #44d62c;
+  padding: 18px;
+}
+.mobile-navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  list-style-type: none;
+  font-size: 0.9rem;
+  padding-top: 15px;
+}
+.mobile-navbar ul a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Razer F5";
+}
+.mobile-navbar ul a .menu-icon {
+  height: 40px;
+  display: flex;
+  align-items: end;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+.mobile-navbar ul a:hover {
+  color: #44d62c;
+}
+.mobile-navbar ul .label {
+  color: #e77b1a;
+  text-align: center;
+}
+
+.alert {
+  background-color: #555555;
+  color: #eee;
+  text-align: center;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-tag {
+  background-color: #111;
+  text-align: center;
+  padding: 48px;
+}
+.intro-tag .header {
+  color: #44d62c;
+  font-family: "Razer F5";
+  font-size: 36px;
+  letter-spacing: 0.0625rem;
+  font-weight: 400;
+}
+.intro-tag .description {
+  color: #999;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.dashboard1 {
+  border-bottom: #44d62c solid 1px;
+}
+.dashboard1 .heading {
+  text-align: center;
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/9d62c1abff9014287154ad41465dbea6/razer-edge-hero.jpg");
+  background-position-y: -100px;
+  background-position-x: center;
+  background-size: center;
+  background-position: cover;
+  min-height: 700px;
+}
+.dashboard1 .heading h2 {
+  color: #eee;
+  font-family: "Razer F5";
+  font-size: 28px;
+  padding: 65px 0px 0px;
+  margin: 0px 16px 19.2px;
+}
+.dashboard1 .heading p {
+  color: #999;
+  font-size: 18px;
+  padding: 7px 16px 20px;
+}
+.dashboard1 .links {
+  text-align: center;
+  font-size: 16px;
+}
+.dashboard1 .links .arrow::after {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
+.dashboard1 .links a {
+  text-decoration: none;
+  color: #44d62c;
+}
+.dashboard1 .links a:hover {
+  text-decoration: underline;
+}
+
+.multi-panel {
+  background-color: #252525;
+  padding: 25px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.multi-panel .card {
+  background-color: #111;
+  border-bottom: #44d62c solid 1px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 550px;
+  max-width: max-content;
+  padding-bottom: 16px;
+}
+.multi-panel .card a img {
+  width: 100%;
+}
+.multi-panel .card .text-cont h3 {
+  padding-left: 10px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+.multi-panel .card .text-cont p {
+  padding-left: 10px;
+  font-size: 14px;
+  color: #999;
+  font-family: "Roboto", sans-serif;
+}
+.multi-panel .card .product-link {
+  margin-top: auto;
+  padding-left: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #44d62c;
+}
+.multi-panel .card .product-link .arrow::after {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
+.multi-panel .card .product-link:hover {
+  text-decoration: underline;
+}
+
+.dashboard2 {
+  border-bottom: #44d62c solid 1px;
+}
+.dashboard2 .heading {
+  text-align: center;
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/6d5e42cc985b839667f80f80f88e6327/stay-in-sync-1920x700.jpg");
+  background-position-y: 0px;
+  background-position-x: center;
+  background-size: center;
+  background-position: cover;
+  min-height: 700px;
+}
+.dashboard2 .heading h2 {
+  color: #eee;
+  font-family: "Razer F5";
+  font-size: 28px;
+  padding: 65px 0px 0px;
+  margin: 0px 16px 19.2px;
+}
+.dashboard2 .heading p {
+  color: #999;
+  font-size: 18px;
+  padding: 7px 16px 20px;
+}
+.dashboard2 .links {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  font-size: 16px;
+}
+.dashboard2 .links .arrow::after {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
+.dashboard2 .links a {
+  text-decoration: none;
+  color: #44d62c;
+}
+.dashboard2 .links a:hover {
+  text-decoration: underline;
+}
+
+.dashboard3 {
+  border-bottom: #44d62c solid 1px;
+}
+.dashboard3 .heading {
+  text-align: center;
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/8d15cb8a565e71ef01f047785d22ce69/gothe-extramile-category-1920x700-desktop.jpg");
+  background-position-y: 0px;
+  background-position-x: center;
+  background-size: center;
+  background-position: cover;
+  min-height: 700px;
+}
+.dashboard3 .heading h2 {
+  color: #eee;
+  font-family: "Razer F5";
+  font-size: 28px;
+  padding: 65px 0px 0px;
+  margin: 0px 16px 19.2px;
+}
+.dashboard3 .heading p {
+  color: #999;
+  font-size: 18px;
+  padding: 7px 16px 20px;
+}
+.dashboard3 .links {
+  text-align: center;
+  font-size: 16px;
+}
+.dashboard3 .links .arrow::after {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
+.dashboard3 .links a {
+  text-decoration: none;
+  color: #44d62c;
+}
+.dashboard3 .links a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 270px;
+}
+.main-content h2 {
+  font-size: 28px;
+  font-family: "Razer F5";
+  color: #fff;
+  font-weight: 400;
+}
+.main-content p {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #999;
+}
+
+.multi-content {
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  padding: 20px 30px;
+  gap: 15px;
+}
+.multi-content .content-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.multi-content .content-box img {
+  width: 100px;
+  height: 100px;
+  padding-bottom: auto;
+}
+.multi-content .content-box p {
+  margin-top: 2rem;
+  text-align: center;
+  color: #999;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.multi-content .content-box p a {
+  color: #44d62c;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .multi-panel {
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 767px) {
+  .multi-panel {
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=mobile.css.map */

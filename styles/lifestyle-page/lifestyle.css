@@ -1,0 +1,485 @@
+@import url("../index.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&family=Oswald:wght@600&family=Roboto:wght@100;300;400&display=swap");
+.lifestyle-navbar {
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #44d62c;
+  padding: 18px;
+}
+.lifestyle-navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  list-style-type: none;
+  font-size: 0.9rem;
+  padding-top: 15px;
+}
+.lifestyle-navbar ul a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Razer F5";
+}
+.lifestyle-navbar ul a .menu-icon {
+  height: 40px;
+  display: flex;
+  align-items: end;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+.lifestyle-navbar ul a:hover {
+  color: #44d62c;
+}
+.lifestyle-navbar ul .label {
+  color: #e77b1a;
+  text-align: center;
+}
+
+.alert {
+  background-color: #555555;
+  color: #eee;
+  text-align: center;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-tag {
+  background-color: #111;
+  text-align: center;
+  padding: 48px;
+}
+.intro-tag .header {
+  color: #44d62c;
+  font-family: "Razer F5";
+  font-size: 36px;
+  letter-spacing: 0.0625rem;
+  font-weight: 400;
+}
+.intro-tag .description {
+  color: #999;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.dashboard1 {
+  border-bottom: #44d62c solid 1px;
+}
+.dashboard1 .heading {
+  text-align: center;
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/0666dc773bd5460ed41bf6e1a1ebad3a/lifestyle-chairs-category-banner.jpg");
+  background-position: center;
+  background-size: center;
+  background-position: cover;
+  min-height: 700px;
+}
+.dashboard1 .heading h2 {
+  color: #eee;
+  font-family: "Razer F5";
+  font-size: 28px;
+  padding: 65px 0px 0px;
+  margin: 0px 16px 19.2px;
+}
+.dashboard1 .heading p {
+  color: #999;
+  font-size: 18px;
+  padding: 7px 16px 20px;
+}
+.dashboard1 .links {
+  text-align: center;
+  font-size: 16px;
+}
+.dashboard1 .links .arrow::after {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
+.dashboard1 .links a {
+  text-decoration: none;
+  color: #44d62c;
+}
+.dashboard1 .links a:hover {
+  text-decoration: underline;
+}
+
+.dashboard2 {
+  border-bottom: #44d62c solid 1px;
+}
+.dashboard2 .heading {
+  text-align: center;
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/f016346e8c8e71ae1ad6731d95943a86/sneki-snek-s2-desktop-cat-banner.jpg");
+  background-position: center;
+  background-size: center;
+  background-position: cover;
+  min-height: 700px;
+}
+.dashboard2 .heading h2 {
+  color: #eee;
+  font-family: "Razer F5";
+  font-size: 28px;
+  padding: 65px 0px 0px;
+  margin: 0px 16px 19.2px;
+}
+.dashboard2 .heading p {
+  color: #999;
+  font-size: 18px;
+  padding: 7px 16px 20px;
+}
+.dashboard2 .links {
+  text-align: center;
+  font-size: 16px;
+}
+.dashboard2 .links .arrow::after {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
+.dashboard2 .links a {
+  text-decoration: none;
+  color: #44d62c;
+}
+.dashboard2 .links a:hover {
+  text-decoration: underline;
+}
+
+.dashboard3 {
+  border-bottom: #44d62c solid 1px;
+}
+.dashboard3 .heading {
+  text-align: center;
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/cd2d636f26bd91dd99923c71b9e84a83/complete-your-setup-campaign-category-banner-desktop.jpg");
+  background-position: center;
+  background-size: center;
+  background-position: cover;
+  min-height: 700px;
+}
+.dashboard3 .heading h2 {
+  color: #eee;
+  font-family: "Razer F5";
+  font-size: 28px;
+  padding: 65px 0px 0px;
+  margin: 0px 16px 19.2px;
+}
+.dashboard3 .heading p {
+  color: #999;
+  font-size: 18px;
+  padding: 7px 16px 20px;
+}
+.dashboard3 .links {
+  text-align: center;
+  font-size: 16px;
+}
+.dashboard3 .links .arrow::after {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
+.dashboard3 .links a {
+  text-decoration: none;
+  color: #44d62c;
+}
+.dashboard3 .links a:hover {
+  text-decoration: underline;
+}
+
+.dashboard4 {
+  border-bottom: #44d62c solid 1px;
+}
+.dashboard4 .heading {
+  text-align: center;
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/25525a620ccdb5488244fde60674f5e0/collabs-category-1920x700-desktop.jpg");
+  background-position: center;
+  background-size: center;
+  background-position: cover;
+  min-height: 700px;
+}
+.dashboard4 .heading h2 {
+  color: #eee;
+  font-family: "Razer F5";
+  font-size: 28px;
+  padding: 65px 0px 0px;
+  margin: 0px 16px 19.2px;
+}
+.dashboard4 .heading p {
+  color: #999;
+  font-size: 18px;
+  padding: 7px 16px 20px;
+}
+.dashboard4 .links {
+  text-align: center;
+  font-size: 16px;
+}
+.dashboard4 .links .arrow::after {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
+.dashboard4 .links a {
+  text-decoration: none;
+  color: #44d62c;
+}
+.dashboard4 .links a:hover {
+  text-decoration: underline;
+}
+
+.dashboard5 {
+  border-bottom: #44d62c solid 1px;
+}
+.dashboard5 .heading {
+  text-align: center;
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/9cb7c4425da9e5099bd4e2afebc9b56b/apparel-category-1920x700-desktop.jpg");
+  background-position: center;
+  background-size: center;
+  background-position: cover;
+  min-height: 700px;
+}
+.dashboard5 .heading h2 {
+  color: #eee;
+  font-family: "Razer F5";
+  font-size: 28px;
+  padding: 65px 0px 0px;
+  margin: 0px 16px 19.2px;
+}
+.dashboard5 .heading p {
+  color: #999;
+  font-size: 18px;
+  padding: 7px 16px 20px;
+}
+.dashboard5 .links {
+  text-align: center;
+  font-size: 16px;
+}
+.dashboard5 .links .arrow::after {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
+.dashboard5 .links a {
+  text-decoration: none;
+  color: #44d62c;
+}
+.dashboard5 .links a:hover {
+  text-decoration: underline;
+}
+
+.dashboard6 {
+  border-bottom: #44d62c solid 1px;
+}
+.dashboard6 .heading {
+  text-align: center;
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/df70fc0371004f9fb85d60a62f905502/lifestyle-bag.jpg");
+  background-position: center;
+  background-size: center;
+  background-position: cover;
+  min-height: 700px;
+}
+.dashboard6 .heading h2 {
+  color: #eee;
+  font-family: "Razer F5";
+  font-size: 28px;
+  padding: 65px 0px 0px;
+  margin: 0px 16px 19.2px;
+}
+.dashboard6 .heading p {
+  color: #999;
+  font-size: 18px;
+  padding: 7px 16px 20px;
+}
+.dashboard6 .links {
+  text-align: center;
+  font-size: 16px;
+}
+.dashboard6 .links .arrow::after {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
+.dashboard6 .links a {
+  text-decoration: none;
+  color: #44d62c;
+}
+.dashboard6 .links a:hover {
+  text-decoration: underline;
+}
+
+.dashboard7 {
+  border-bottom: #44d62c solid 1px;
+}
+.dashboard7 .heading {
+  text-align: center;
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/3a1137ca109d372509c5a129f0e62483/lifestyle-gear.jpg");
+  background-position: center;
+  background-size: center;
+  background-position: cover;
+  min-height: 700px;
+}
+.dashboard7 .heading h2 {
+  color: #eee;
+  font-family: "Razer F5";
+  font-size: 28px;
+  padding: 65px 0px 0px;
+  margin: 0px 16px 19.2px;
+}
+.dashboard7 .heading p {
+  color: #999;
+  font-size: 18px;
+  padding: 7px 16px 20px;
+}
+.dashboard7 .links {
+  text-align: center;
+  font-size: 16px;
+}
+.dashboard7 .links .arrow::after {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
+.dashboard7 .links a {
+  text-decoration: none;
+  color: #44d62c;
+}
+.dashboard7 .links a:hover {
+  text-decoration: underline;
+}
+
+.dashboard8 {
+  border-bottom: #44d62c solid 1px;
+}
+.dashboard8 .heading {
+  text-align: center;
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/2bce7b0e7f5425138cb2daf35ff9fa7a/razer-cloth-mask-v2-desktop-cat-banner.jpg");
+  background-position: center;
+  background-size: center;
+  background-position: cover;
+  min-height: 700px;
+}
+.dashboard8 .heading h2 {
+  color: #eee;
+  font-family: "Razer F5";
+  font-size: 28px;
+  padding: 65px 0px 0px;
+  margin: 0px 16px 19.2px;
+}
+.dashboard8 .heading p {
+  color: #999;
+  font-size: 18px;
+  padding: 7px 16px 20px;
+}
+.dashboard8 .links {
+  text-align: center;
+  font-size: 16px;
+}
+.dashboard8 .links .arrow::after {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
+.dashboard8 .links a {
+  text-decoration: none;
+  color: #44d62c;
+}
+.dashboard8 .links a:hover {
+  text-decoration: underline;
+}
+
+.dashboard9 {
+  border-bottom: #44d62c solid 1px;
+}
+.dashboard9 .heading {
+  text-align: center;
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/0248d471a2bf516300a5af348fe1655d/lifestyle-sneki-snek.jpg");
+  background-position: center;
+  background-size: center;
+  background-position: cover;
+  min-height: 700px;
+}
+.dashboard9 .heading h2 {
+  color: #eee;
+  font-family: "Razer F5";
+  font-size: 28px;
+  padding: 65px 0px 0px;
+  margin: 0px 16px 19.2px;
+}
+.dashboard9 .heading p {
+  color: #999;
+  font-size: 18px;
+  padding: 7px 16px 20px;
+}
+.dashboard9 .links {
+  text-align: center;
+  font-size: 16px;
+}
+.dashboard9 .links .arrow::after {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
+.dashboard9 .links a {
+  text-decoration: none;
+  color: #44d62c;
+}
+.dashboard9 .links a:hover {
+  text-decoration: underline;
+}
+
+.dashboard10 {
+  border-bottom: #44d62c solid 1px;
+}
+.dashboard10 .heading {
+  text-align: center;
+  background-image: url("https://assets2.razerzone.com/images/pnx.assets/3bb1bbc90757131821e400fa6ada15dd/lifestyle-respawn.jpg");
+  background-position: center;
+  background-size: center;
+  background-position: cover;
+  min-height: 700px;
+}
+.dashboard10 .heading h2 {
+  color: #eee;
+  font-family: "Razer F5";
+  font-size: 28px;
+  padding: 65px 0px 0px;
+  margin: 0px 16px 19.2px;
+}
+.dashboard10 .heading p {
+  color: #999;
+  font-size: 18px;
+  padding: 7px 16px 20px;
+}
+.dashboard10 .links {
+  text-align: center;
+  font-size: 16px;
+}
+.dashboard10 .links .arrow::after {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
+.dashboard10 .links a {
+  text-decoration: none;
+  color: #44d62c;
+}
+.dashboard10 .links a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=lifestyle.css.map */
