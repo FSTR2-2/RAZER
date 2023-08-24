@@ -1,4 +1,11 @@
 @import url("../index.css");
+@mixin ok {
+  content: ">";
+  color: var(--color-primary);
+  font-family: "Razer F5";
+  position: absolute;
+  margin-left: 0.4rem;
+}
 
 html {
   overflow-x: hidden;
@@ -63,20 +70,6 @@ body {
         }
       }
     }
-  }
-}
-.razer-notification {
-  width: 100%;
-  background-color: #555;
-
-  .notification {
-    color: #eee;
-    font-size: 14px;
-    padding: 11.5px 40px 9.5px 30px;
-    font-family: "Roboto", sans-serif;
-    display: flex;
-    justify-content: center;
-    text-align: center;
   }
 }
 
@@ -173,10 +166,12 @@ body {
     display: flex;
     justify-content: center;
     text-decoration: none;
-  }
-  a:hover {
+
+    &:hover {
     text-decoration: underline;
+    }
   }
+
 }
 .d2-container {
   height: 700px;
@@ -217,6 +212,7 @@ body {
   background-size: cover;
   border-bottom: 1px solid #44D62C;
   background-image: url(https://assets2.razerzone.com/images/pnx.assets/0b335ec990ba572534f8215e14e8008c/razer-community-stream.jpg);
+
   @media (max-width:768px) {
     background-image: url(https://assets2.razerzone.com/images/pnx.assets/0b335ec990ba572534f8215e14e8008c/razer-community-stream-450x480-mobile.jpg);
     max-height: 530px !important;
@@ -250,6 +246,7 @@ body {
   background-size: cover;
   border-bottom: 1px solid #44D62C;
   background-image: url(https://assets2.razerzone.com/images/pnx.assets/c76379f9591f69e1df778c1354aac718/razer-esports.jpg);
+
   @media (max-width:768px) {
     background-image: url(https://assets2.razerzone.com/images/pnx.assets/c76379f9591f69e1df778c1354aac718/razer-esports-450x480-mobile.jpg);
     max-height: 530px !important;
@@ -282,19 +279,22 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(35%, 1fr));
     width: 100%;
-    height: 100%;
-    gap: 1rem;
-    justify-content: center;
+    grid-gap: 1rem;
     padding: 3rem 0;
-    position: relative;
-
+    
+    @media (min-width:1280px) {
+      padding: 3rem 185px;
+      .item {
+        justify-self: center;
+        width: 580px;
+      }
+    }
     @media (max-width:768px) {
       grid-template-columns: repeat(auto-fit, minmax(50%, 1fr)) ;
       
       .item {
-        padding: 3rem 0;
         width: 480px!important;
-        height: 587px!important;
+        height: 580px!important;
         justify-self: center;
         align-self: center;
       }
@@ -305,12 +305,15 @@ body {
     }
 
     .item {
+      max-width: 562px;
+      max-height: 587px;
       height: 580px;
       border-bottom: 1px solid #44D62C;
       background-image: url(https://assets2.razerzone.com/images/pnx.assets/848a8203ca16f29ed8ac7de702040c58/razer-insider.jpg);
       background-position: center bottom;
       background-size: cover;
       background-repeat: no-repeat;
+
       .text {
         color: #fff;
         font-family: "Razer F5",Arial,Helvetica,sans-serif;
@@ -341,6 +344,36 @@ body {
     }
     .item.fourth{
       background-image: url(https://assets2.razerzone.com/images/pnx.assets/848a8203ca16f29ed8ac7de702040c58/razer-developer.jpg);
+    }
+  }
+}
+.usp-container1 {
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/3200ecc…/razer-community-giveaways.jpg);
+  min-height: 400px;
+  img {
+  }
+  .content-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .main-content {
+      h2 {
+        font-family: "Razer F5",sans-serif;
+      }
+      .p-container {
+        ul {
+          display: flex;
+          li {
+            a {
+              img {
+                width: 65px;
+                vertical-align: middle;
+                border-style: none;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

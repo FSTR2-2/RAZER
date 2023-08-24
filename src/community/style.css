@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("../index.css");
 html {
   overflow-x: hidden;
@@ -59,20 +60,6 @@ body {
 }
 .community-submenu .submenu-container ul li a .icon-name:hover {
   color: #44d62c;
-}
-
-.razer-notification {
-  width: 100%;
-  background-color: #555;
-}
-.razer-notification .notification {
-  color: #eee;
-  font-size: 14px;
-  padding: 11.5px 40px 9.5px 30px;
-  font-family: "Roboto", sans-serif;
-  display: flex;
-  justify-content: center;
-  text-align: center;
 }
 
 .usp-container {
@@ -290,20 +277,25 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(35%, 1fr));
   width: 100%;
-  height: 100%;
-  gap: 1rem;
-  justify-content: center;
+  grid-gap: 1rem;
   padding: 3rem 0;
-  position: relative;
+}
+@media (min-width: 1280px) {
+  .card-container .container {
+    padding: 3rem 185px;
+  }
+  .card-container .container .item {
+    justify-self: center;
+    width: 580px;
+  }
 }
 @media (max-width: 768px) {
   .card-container .container {
     grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
   }
   .card-container .container .item {
-    padding: 3rem 0;
     width: 480px !important;
-    height: 587px !important;
+    height: 580px !important;
     justify-self: center;
     align-self: center;
   }
@@ -314,6 +306,8 @@ body {
   }
 }
 .card-container .container .item {
+  max-width: 562px;
+  max-height: 587px;
   height: 580px;
   border-bottom: 1px solid #44D62C;
   background-image: url(https://assets2.razerzone.com/images/pnx.assets/848a8203ca16f29ed8ac7de702040c58/razer-insider.jpg);
@@ -350,6 +344,27 @@ body {
 }
 .card-container .container .item.fourth {
   background-image: url(https://assets2.razerzone.com/images/pnx.assets/848a8203ca16f29ed8ac7de702040c58/razer-developer.jpg);
+}
+
+.usp-container1 {
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/3200ecc…/razer-community-giveaways.jpg);
+  min-height: 400px;
+}
+.usp-container1 .content-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.usp-container1 .content-grid .main-content h2 {
+  font-family: "Razer F5", sans-serif;
+}
+.usp-container1 .content-grid .main-content .p-container ul {
+  display: flex;
+}
+.usp-container1 .content-grid .main-content .p-container ul li a img {
+  width: 65px;
+  vertical-align: middle;
+  border-style: none;
 }
 
 /*# sourceMappingURL=style.css.map */
