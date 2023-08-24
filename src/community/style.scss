@@ -1,0 +1,123 @@
+@import url("../index.css");
+
+html {
+  overflow-x: hidden;
+}
+
+.community-submenu {
+  background-color: #1a1a1a;
+  width: 100%;
+  padding: 0px 10px;
+  border-bottom: 1px solid #44d62c;
+  overflow-x: scroll;
+  overflow-x: auto;
+
+  &::-webkit-scrollbar {
+    height: 6px;
+    overflow: hidden;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: #31373a;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.18);
+    border-radius: 40px;
+  }
+
+  .submenu-container {
+    height: 103px;
+    display: flex;
+    justify-content: center;
+    padding: 1.1rem 0px;
+
+    ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      gap: 2.1rem;
+      li {
+        a {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .icon {
+            text-align: center;
+            height: 40px;
+            margin: 0 0 0.5rem;
+            display: flex;
+            align-items: flex-end;
+          }
+          .icon-name {
+            font-family: "Roboto", sans-serif;
+            color: #fff;
+            font-size: 0.75rem;
+            line-height: 1.15rem;
+          }
+          .icon-name:hover {
+            color: #44d62c;
+          }
+        }
+      }
+    }
+  }
+}
+.razer-notification {
+  width: 100%;
+  background-color: #555;
+
+  .notification {
+    color: #eee;
+    font-size: 14px;
+    padding: 11.5px 40px 9.5px 30px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+section {
+    .usp-container {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        max-width: 1920px;
+        max-height: 1080px;
+        border: 1px solid red;
+        
+        .img-container {
+            position: absolute;                                                                                                                                                                                                             
+            z-index: 0;
+            img {
+                width: 100%;    
+            }
+        }
+        .content-grid {
+            position: absolute;
+            width: 100%;
+            color: white;
+            z-index: 1;
+            display: grid;
+            grid-template-rows: auto;
+            align-content: flex-start;
+            
+            .text-container {
+                color: white;
+                h1 {
+                    padding: 0 16px;
+                    margin: 16px 0;
+                    font-size: 42px;
+                    font-family: "Razer F5",sans-serif;
+                    font-weight: 300;
+
+                    strong{
+                        font-size: 92px;
+                        color: #44d62c;
+                        font-weight: bold;
+                        font-weight: 700;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
