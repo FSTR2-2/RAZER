@@ -1,0 +1,474 @@
+{
+  "freshOfTheLine": [
+    {
+      "title": "Razer Blade 14 Models",
+      "summary": "NVIDIA® GeForce RTX™ 40 Series 14” Laptop with AMD Ryzen 9 7940HS Processor",
+      "infoText": "Now available in a sleek mercury or matte black finish.",
+      "price": 2399.99,
+      "variations": true,
+      "label": "gift with purchase",
+      "url": {
+        "img": "https://assets3.razerzone.com/HWyBrdi1Zay37XldxX3Y1O4puOg=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhb7%2Fh1b%2F9539342008350%2Fblade14-p9-black-500x500.png",
+        "chroma": "https://assets2.razerzone.com/images/pnx.assets/9fc9376aa192ea7ea3c1f5a5673e3931/razer-chroma-white-icon.png"
+      }
+    },
+    {
+      "title": "Razer Blade 16 Models",
+      "summary": "NVIDIA® GeForce RTX™ 40 Series 16” Laptop with 13th Gen Intel® Core™ i9 Processor (24-Core)",
+      "infoText": "Now available in a sleek mercury or matte black finish.",
+      "price": 2699.99,
+      "variations": true,
+      "label": "",
+      "url": {
+        "img": "https://assets3.razerzone.com/xusudNlBP4YoKgoOh3EkWXxopYg=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhfe%2Fh86%2F9470716772382%2Fblade16-s9-v2-500x500.png",
+        "chroma": "https://assets2.razerzone.com/images/pnx.assets/9fc9376aa192ea7ea3c1f5a5673e3931/razer-chroma-white-icon.png"
+      }
+    },
+    {
+      "title": "Razer Blade 18 Models",
+      "summary": "NVIDIA® GeForce RTX™ 40 Series 18” Laptop with 13th Gen Intel® Core™ i9 Processor (24-Core)",
+      "infoText": "Now available in a sleek mercury or matte black finish.",
+      "price": 2899.99,
+      "variations": true,
+      "label": "",
+      "url": {
+        "img": "https://assets3.razerzone.com/w9p21V_LWgzTnzKSTQNfGvKbF_Y=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh57%2Fh84%2F9470716805150%2Fblade18-k9-v2-500x500.png",
+        "chroma": "https://assets2.razerzone.com/images/pnx.assets/9fc9376aa192ea7ea3c1f5a5673e3931/razer-chroma-white-icon.png"
+      }
+    },
+    {
+      "title": "Razer BlackWidow V4 - Yellow Switch - US",
+      "summary": "Mechanical Gaming Keyboard with Razer Chroma™ RGB",
+      "infoText": "",
+      "price": 169.99,
+      "variations": false,
+      "label": "new",
+      "url": {
+        "img": "https://assets3.razerzone.com/RfdqPpKTDN9gaLoMsAaBY-EoXKQ=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh29%2Fhef%2F9618905497630%2Fblackwidow-v4-500x500.png",
+        "chroma": "https://assets2.razerzone.com/images/pnx.assets/9fc9376aa192ea7ea3c1f5a5673e3931/razer-chroma-white-icon.png"
+      }
+    },
+    {
+      "title": "Razer BlackWidow V4 X - Yellow Switch - US",
+      "summary": "Mechanical Gaming Keyboard with Razer Chroma™ RGB",
+      "infoText": "",
+      "price": 129.99,
+      "variations": false,
+      "label": "new",
+      "url": {
+        "img": "https://assets3.razerzone.com/N8M3gMLjQRMb7Y3LWpLmbIM1kyA=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhd2%2Fhee%2F9618905464862%2Fblackwidow-v4-x-500x500.png",
+        "chroma": "https://assets2.razerzone.com/images/pnx.assets/9fc9376aa192ea7ea3c1f5a5673e3931/razer-chroma-white-icon.png"
+      }
+    },
+    {
+      "title": "Razer Huntsman V2 - Linear Optical Switch - US - PUBG: BATTLEGROUNDS Edition",
+      "summary": "Optical Gaming Keyboard with Near-zero Input Latency",
+      "infoText": "",
+      "price": 229.99,
+      "variations": false,
+      "label": "gift with purchase",
+      "url": {
+        "img": "https://assets3.razerzone.com/Y_uxVrIDqp-7P4ouhdk1PaSC0Js=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh1b%2Fh64%2F9618322620446%2Fhuntsman-v2-pubg-2-500x500.png",
+        "chroma": "https://assets2.razerzone.com/images/pnx.assets/9fc9376aa192ea7ea3c1f5a5673e3931/razer-chroma-white-icon.png"
+      }
+    },
+    {
+      "title": "Razer Viper V2 Pro - PUBG: BATTLEGROUNDS Edition",
+      "summary": "Ultra-lightweight, Ultra-fast Wireless Esports Mouse",
+      "infoText": "",
+      "price": 169.99,
+      "variations": false,
+      "label": "new",
+      "url": {
+        "img": "https://assets3.razerzone.com/Tv1JKEHlOyH2w5Z8znx60I-i0Sc=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh41%2Fh24%2F9606772916254%2Fviper-v2-pro-pubg-2-500x500.png",
+        "chroma": ""
+      }
+    },
+    {
+      "title": "Razer Barracuda X - PUBG: BATTLEGROUNDS Edition",
+      "summary": "Wireless Multi-platform Gaming and Mobile Headset",
+      "infoText": "",
+      "price": 129.99,
+      "variations": false,
+      "label": "new",
+      "url": {
+        "img": "https://assets3.razerzone.com/mLNtHPtS8BHBzUQS5oxn-a7yJQ0=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhf9%2Fha0%2F9593488834590%2Fbarracuda-x-pubg-500x500.png",
+        "chroma": ""
+      }
+    }
+  ],
+  "bestSellers": [
+    {
+      "title": "Razer Kiyo Pro",
+      "summary": "USB Camera with High-Performance Adaptive Light Sensor",
+      "infoText": "",
+      "price": 99.99,
+      "discount": true,
+      "mainPrice": 199.99,
+      "variations": false,
+      "label": "50% off",
+      "url": {
+        "img": "https://assets3.razerzone.com/7nHLILYrxMeHhdiPAEr0X3606js=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhee%2Fhe9%2F9488900620318%2Fkiyo-pro-2-500x500.png",
+        "chroma": ""
+      }
+    },
+    {
+      "title": "Razer Kiyo Pro Ultra",
+      "summary": "Ultra-large Sensor 4K Webcam for Content Creation",
+      "infoText": "",
+      "price": 299.99,
+      "variations": false,
+      "label": "exclusive",
+      "url": {
+        "img": "https://assets3.razerzone.com/gr8orw21Pi1EQe4PPA903Ym_JSE=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh04%2Fhee%2F9488900784158%2Fkiyo-pro-ultra-2-500x500.png",
+        "chroma": ""
+      }
+    },
+    {
+      "title": "Razer Basilisk V3 Pro - Black",
+      "summary": "Customizable Wireless Gaming Mouse with Razer HyperScroll Tilt Wheel",
+      "infoText": "",
+      "price": 159.99,
+      "variations": false,
+      "label": "",
+      "url": {
+        "img": "https://assets3.razerzone.com/8ZZyy1_8A5G1tQtvGQ0eMLCXlPo=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fha0%2Fhb6%2F9529652445214%2Fbasilisk-v3-pro-black-2-500x500.png",
+        "chroma": "https://assets2.razerzone.com/images/pnx.assets/9fc9376aa192ea7ea3c1f5a5673e3931/razer-chroma-white-icon.png"
+      }
+    },
+    {
+      "title": "Razer Naga V2 Pro",
+      "summary": "MMO Wireless Gaming Mouse with HyperScroll Pro Wheel",
+      "infoText": "",
+      "price": 179.99,
+      "variations": false,
+      "label": "",
+      "url": {
+        "img": "https://assets3.razerzone.com/sUqjxfxYFx-ERQZb3FowCHfscFE=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhb2%2Fhb9%2F9529652379678%2Fnaga-v2-pro-2-500x500.png",
+        "chroma": "https://assets2.razerzone.com/images/pnx.assets/9fc9376aa192ea7ea3c1f5a5673e3931/razer-chroma-white-icon.png"
+      }
+    },
+    {
+      "title": "Razer DeathAdder V3 Pro - Black",
+      "summary": "Ultra-lightweight Wireless Ergonomic Esports Mouse",
+      "infoText": "",
+      "price": 149.99,
+      "variations": false,
+      "label": "",
+      "url": {
+        "img": "https://assets3.razerzone.com/y2tvnUAQsHDV6h7z-sm7E49ehxM=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhc9%2Fh51%2F9449963946014%2Fdeathadder-v3-pro-black-v2-500x500.png",
+        "chroma": ""
+      }
+    },
+    {
+      "title": "Razer Viper V2 Pro - Black",
+      "summary": "Ultra-lightweight, Ultra-fast Wireless Esports Mouse",
+      "infoText": "",
+      "price": 149.99,
+      "variations": false,
+      "label": "",
+      "url": {
+        "img": "https://assets3.razerzone.com/1PlN-1NaPb51klHhdoW0dpfK748=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh9f%2Fh4c%2F9529653461022%2Fviper-v2-pro-black-2-500x500.png",
+        "chroma": ""
+      }
+    }
+  ],
+  "razerExclusives": [
+    {
+      "title": "Razer Kiyo Pro Ultra",
+      "summary": "Ultra-large Sensor 4K Webcam for Content Creation",
+      "infoText": "",
+      "price": 299.99,
+      "variations": false,
+      "label": "exclusive",
+      "url": {
+        "img": "https://assets3.razerzone.com/gr8orw21Pi1EQe4PPA903Ym_JSE=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh04%2Fhee%2F9488900784158%2Fkiyo-pro-ultra-2-500x500.png",
+        "chroma": ""
+      }
+    },
+    {
+      "title": "Razer HyperPolling Wireless Dongle",
+      "summary": "True 4000 Hz Wireless Dongle for Compatible Mice",
+      "infoText": "",
+      "price": 29.99,
+      "variations": false,
+      "label": "exclusive",
+      "url": {
+        "img": "https://assets3.razerzone.com/h_yvqG55H29E4Y8CpJJ7Uc3VYdI=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh11%2Fhd3%2F9422202437662%2Fhyperpolling-wireless-dongle-500x500.png",
+        "chroma": ""
+      }
+    },
+    {
+      "title": "Razer Naga Left-Handed Edition",
+      "summary": "Ergonomic MMO Gaming Mouse for Left-Handed Users",
+      "infoText": "",
+      "price": 99.99,
+      "variations": false,
+      "label": "exclusive",
+      "url": {
+        "img": "https://assets3.razerzone.com/PjExqIfYxtEgQg-WMszhQge8Pd0=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh09%2Fhba%2F9529652346910%2Fnaga-left-handed-2-500x500.png",
+        "chroma": "https://assets2.razerzone.com/images/pnx.assets/9fc9376aa192ea7ea3c1f5a5673e3931/razer-chroma-white-icon.png"
+      }
+    },
+    {
+      "title": "Razer DeathStalker V2 Pro Tenkeyless - Clicky Optical Switch - US - Black",
+      "summary": "Wireless Low-Profile RGB Tenkeyless Optical Keyboard",
+      "infoText": "",
+      "price": 219.99,
+      "variations": false,
+      "label": "exclusive",
+      "url": {
+        "img": "https://assets3.razerzone.com/TuWuCs40JqlaHBxvYFW7ev-Lml0=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh7d%2Fh59%2F9533910089758%2Fdeathstalker-v2-pro-tkl-4-500x500.png",
+        "chroma": "https://assets2.razerzone.com/images/pnx.assets/9fc9376aa192ea7ea3c1f5a5673e3931/razer-chroma-white-icon.png"
+      }
+    },
+    {
+      "title": "Razer Enki Pro - Automobili Lamborghini Edition",
+      "summary": "Premium Gaming Chair with Alcantara® Leather for All-Day Comfort",
+      "infoText": "",
+      "price": 1299.0,
+      "variations": false,
+      "label": "exclusive",
+      "url": {
+        "img": "https://assets3.razerzone.com/ZDU4mfPpNnf51UhvcVSt2KliIEg=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh4e%2Fh58%2F9456056172574%2Fenki-pro-lamborghini-500x500.png",
+        "chroma": ""
+      }
+    },
+    {
+      "title": "Razer Enki Pro - Koenigsegg Edition",
+      "summary": "Premium Gaming Chair with Alcantara® Leather for All-Day Comfort",
+      "infoText": "",
+      "price": 1299.0,
+      "variations": false,
+      "label": "exclusive",
+      "url": {
+        "img": "https://assets3.razerzone.com/R3uCcugMuuPu18L1LxiapmDCLAU=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh4e%2Fh74%2F9424953245726%2Fenki-pro-koenigsegg-500x500.png",
+        "chroma": ""
+      }
+    },
+    {
+      "title": "Razer Wireless Controller & Quick Charging Stand for Xbox Razer Limited Edition",
+      "summary": "Officially Licensed Xbox Controller and Quick Charging Stand",
+      "infoText": "",
+      "price": 199.99,
+      "variations": false,
+      "label": "exclusive",
+      "url": {
+        "img": "https://assets3.razerzone.com/dc2a8ydrlYbI1Cxql4dqvGcyOtA=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhe8%2Fha6%2F9450109992990%2Funiversal-quick-charging-stand-xbox-v2-500x500.png",
+        "chroma": ""
+      }
+    },
+    {
+      "title": "Razersuperfuture Matte Black Glasses",
+      "summary": "Photochromic Glasses with Blue Light Protection",
+      "infoText": "",
+      "price": 239.99,
+      "variations": false,
+      "label": "exclusive",
+      "url": {
+        "img": "https://assets3.razerzone.com/dc2a8ydrlYbI1Cxql4dqvGcyOtA=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhe8%2Fha6%2F9450109992990%2Funiversal-quick-charging-stand-xbox-v2-500x500.png",
+        "chroma": ""
+      }
+    }
+  ],
+  "razerLastChance": [
+    {
+      "title": "Razer Blade 14 (2022)",
+      "summary": "14-inch Gaming Laptop with AMD Ryzen™ 6900HX ",
+      "infoText": "",
+      "discount": true,
+      "price": 1899.99,
+      "mainPrice": 1999.99,
+      "variations": true,
+      "label": "5% off",
+      "url": {
+        "img": "https://assets3.razerzone.com/YHF3HVs3KUYyyV2fvy5lsTFNFIg=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhbd%2Fh06%2F9286402375710%2Fblade14-p8-fhd-500x500.png",
+        "chroma": ""
+      }
+    },
+    {
+      "title": "Razer Blade 15 Full HD (2022)",
+      "summary": "Flagship 15-inch Laptop for Power and Portability",
+      "infoText": "",
+      "discount": true,
+      "price": 2249.99,
+      "mainPrice": 2999.99,
+      "variations": false,
+      "label": "23% off",
+      "url": {
+        "img": "https://assets3.razerzone.com/UUODnE8z5w_1YhkDj3Gzf2wPwO8=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh2d%2Fhe5%2F9392073998366%2Fblade15-ch8-fhd-2-500x500.png",
+        "chroma": ""
+      }
+    },
+    {
+      "title": "Razer Blade 15 OLED (2022)",
+      "summary": "Flagship 15-inch Laptop for Power and Portability",
+      "infoText": "",
+      "discount": true,
+      "price": 2699.99,
+      "mainPrice": 3299.99,
+      "variations": false,
+      "label": "18% off",
+      "url": {
+        "img": "https://assets3.razerzone.com/UUODnE8z5w_1YhkDj3Gzf2wPwO8=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh2d%2Fhe5%2F9392073998366%2Fblade15-ch8-fhd-2-500x500.png",
+        "chroma": ""
+      }
+    },
+    {
+      "title": "Razer Blade 17 (2022)",
+      "summary": "Desktop Replacement Laptop with 12th Gen Processors",
+      "infoText": "Receive a Razer Orochi V2, Gigantus V2 XXL and Laptop Stand Chroma when you purchase the Razer Blade 17. While Stocks Last.",
+      "discount": true,
+      "price": 2899.99,
+      "mainPrice": 3199.99,
+      "variations": true,
+      "label": "9% off",
+      "url": {
+        "img": "https://assets3.razerzone.com/nu_cx2Px8X99ayBPPq2Z_1vldcM=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh71%2Fh9a%2F9392074063902%2Fblade17-d8-fhd-2-500x500.png",
+        "chroma": ""
+      }
+    },
+    {
+      "title": "Razer Raptor 27 - 1440P - 165 Hz",
+      "summary": "The Ultimate Gaming Monitor",
+      "infoText": "",
+      "discount": true,
+      "price": 399.99,
+      "mainPrice": 799.99,
+      "variations": false,
+      "label": "50% off",
+      "url": {
+        "img": "https://assets3.razerzone.com/jqTPU3pUADwr1fK48nAYOfFoPkM=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh1a%2Fh53%2F9188160569374%2Fraptor-27-165hz-500x500.png",
+        "chroma": ""
+      }
+    },
+    {
+      "title": "Razer DeathAdder V2 Pro - Black",
+      "summary": "Wireless gaming mouse with best-in-class ergonomics",
+      "infoText": "",
+      "discount": true,
+      "price": 79.99,
+      "mainPrice": 129.99,
+      "variations": false,
+      "label": "38% off",
+      "url": {
+        "img": "https://assets3.razerzone.com/umK2N1SIPOW2G3KTzUhN2fRhZcU=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh18%2Fh7a%2F9086238556190%2F500x500-deathadderV2pro.png",
+        "chroma": "https://assets2.razerzone.com/images/pnx.assets/9fc9376aa192ea7ea3c1f5a5673e3931/razer-chroma-white-icon.png"
+      }
+    },
+    {
+      "title": "Razer BlackShark V2 Pro (2020) - Six Siege Special Edition",
+      "summary": "Wireless esports headset",
+      "infoText": "",
+      "discount": true,
+      "price": 129.99,
+      "mainPrice": 199.99,
+      "variations": false,
+      "label": "35% off",
+      "url": {
+        "img": "https://assets3.razerzone.com/5JoJ3xIZ8uh7j1LBVvtc48__a28=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fha4%2Fhfc%2F9188463181854%2Fblackshark-v2-pro-six-siege-se-500x500.png",
+        "chroma": ""
+      }
+    },
+    {
+      "title": "Razer Nommo Pro",
+      "summary": "THX certified 2.1 virtual surround gaming speakers",
+      "infoText": "",
+      "discount": true,
+      "price": 499.99,
+      "mainPrice": 599.99,
+      "variations": false,
+      "label": "16% off",
+      "url": {
+        "img": "https://assets3.razerzone.com/NhT3dANcfUS1PSJPlswLW2O-uoQ=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhe3%2Fhd1%2F9004665503774%2F9004408045598.png",
+        "chroma": ""
+      }
+    }
+  ],
+  "campainCarouselBanner": [
+    {
+      "title": "WIN THE RAZER DEATHADDER V3 PRO BUNDLE",
+      "summary": "RAZERSTORE REWARDS GIVEAWAY",
+      "cta": "Join Now",
+      "url": {
+        "img": "//assets2.razerzone.com/images/pnx.assets/33b0f75b2605668f59d056f13cec54fc/rzr_rewards_aug23_desktop.jpg"
+      }
+    },
+    {
+      "title": "SCHOOL THE COMPETITION",
+      "summary": "ENJOY EXLUSIVE EDUCATION PRICING",
+      "cta": "Shop Now",
+      "url": {
+        "img": "//assets2.razerzone.com/images/pnx.assets/33b0f75b2605668f59d056f13cec54fc/bts-2023-desktop.jpg"
+      }
+    },
+    {
+      "title": "LIMITED-TIME EXOPRIMAL BUNDLE",
+      "summary": "BE READY WITH OUR BEST GEAR",
+      "cta": "Learn More",
+      "url": {
+        "img": "//assets2.razerzone.com/images/pnx.assets/94200bc89ae4e19b275430d32d580d6a/exoprimal-store-desktop.png"
+      }
+    }
+  ],
+  "exclusiveBanner": [
+    {
+      "title": "MORE POWER THIS SUMMER",
+      "summary": "GEAR UP FOR ULTIMATE PRODUCTIVITY",
+      "cta": "Shop Now",
+      "url": {
+        "img": "https://assets2.razerzone.com/images/pnx.assets/f00094027c7df2852631d9beded6f9be/summer_17_desktop.jpg"
+      }
+    },
+    {
+      "title": "RAZER SKINS",
+      "summary": "Crafted with customized 3M cast vinyl for extreme durability and fused with cutting-edge adhesive technologies for an ultra-precise fit, our skins are decked out in an array of striking designs to express your personal style.",
+      "cta": "Choose Your Style",
+      "url": {
+        "img": "https://assets2.razerzone.com/images/pnx.assets/186921c07aa55486994e5d5de6ecc511/razer-skins-store-desktop.jpg"
+      }
+    },
+    {
+      "title": "RAZER CERTIFIED REFURBISHED PRODUCTS",
+      "summary": "Reborn and battle-ready, our restored products are indistinguishable from their brand-new counterparts and come outfitted with special savings that are second to none.",
+      "cta": "Shop All Refurbished Products",
+      "url": {
+        "img": "https://assets2.razerzone.com/images/pnx.assets/3ab06c5a17df1ec96d6616f360e65e43/razer-refurbished-laptops_desktop_1920x400.jpg"
+      }
+    },
+    {
+      "title": "RAZER VIPER MINI SIGNATURE EDITION",
+      "summary": "The best lightweight performance gaming mouse",
+      "cta": "Learn More",
+      "url": {
+        "img": "https://assets2.razerzone.com/images/pnx.assets/d90c20bd9a4df3f52933b15e89306f08/viper-mini-signature-store-desktop.jpg"
+      }
+    }
+  ],
+  "otherLinks": [
+    {
+      "title": "RazerStore Rewards",
+      "url": {
+        "img": "https://assets2.razerzone.com/images/pnx.assets/82b6cfc4e44a432379d7364c25384d09/razerstore-rewards_500x500.jpg"
+      }
+    },
+    {
+      "title": "Razer Customs",
+      "url": {
+        "img": "https://assets2.razerzone.com/images/pnx.assets/8bb73d36a73c2f69b3cffb43669c4978/500x500-copy.jpg"
+      }
+    },
+    {
+      "title": "Purchase Programs",
+      "url": {
+        "img": "https://assets2.razerzone.com/images/pnx.assets/82b6cfc4e44a432379d7364c25384d09/purchaseprograms_500x500.jpg"
+      }
+    },
+    {
+      "title": "RazerCare",
+      "url": {
+        "img": "https://assets2.razerzone.com/images/pnx.assets/82b6cfc4e44a432379d7364c25384d09/razercare_500x500.jpg"
+      }
+    }
+  ]
+}
