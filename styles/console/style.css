@@ -3,10 +3,12 @@ html {
   background-color: #252525;
 }
 
+body {
+  margin: 0;
+}
+
 main {
   background-color: #333333;
-  margin: 0;
-  padding: 0;
 }
 
 .navbar-submenu {
@@ -229,6 +231,7 @@ main {
 }
 
 .dashboard92 {
+  background-color: #000;
   display: flex;
   justify-content: flex-end;
   font-family: "Roboto", sans-serif;
