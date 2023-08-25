@@ -19,6 +19,7 @@ main {
   padding: 18px;
   overflow-x: scroll;
   overflow-x: auto;
+  border-bottom: 1px solid #44d62c;
 }
 .navbar-submenu::-webkit-scrollbar {
   height: 6px;
