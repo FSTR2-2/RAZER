@@ -8,4 +8,4 @@ Technologies used in website construction.
 - SASS
 - JAVASCRIPT
 
-![Razer Clone Website!](/assets/img/razer-clone.jpg "Razer Clone Web-site")
+![Razer Clone Website!](assets/img/razer-clone.jpg "Razer Clone Web-site")
